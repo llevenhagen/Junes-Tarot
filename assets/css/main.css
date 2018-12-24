@@ -7,24 +7,69 @@
   --whitedsmoke: #f5f5f5;
   --babypowder: #FEFEFA;
   --babyblue: #85e1db;
-
 }
-
-
-/**
- * Reset some basic elements
- */
+/* GENERAL */
  html {
    width: 100vw;
  }
- *{
+ body {
    width: 100vw;
+ }
+ *{
    background: var(--babypowder);
+   font-family: 'Lato', sans-serif;
  }
  nav{
    width: 100%;
    border-bottom: .02vw solid var(--puceblue);
  }
+ h2 {
+  color: var(--puceblue);
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  text-decoration: underline;
+ }
+ h3 {
+  color: var(--lightblue);
+ }
+ a {
+  color: var(--red);
+  font-weight: bold;
+ }
+ .contact-me-link {
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+ }
+ .textalign-center {
+  text-align: center;
+ }
+ .gold {
+   color: var(--golden);
+ }
+ .bold {
+   font-weight: bold;
+ }
+ .text-decoration {
+   text-decoration: underline;
+ }
+ .flex-container {
+   display: inline-flex;
+   justify-content: flex-start;
+ }
+ .float-right {
+   float: right;
+ }
+ .float-left {
+   float: left;
+ }
+ .faq-page-img, .pr-page-img {
+   max-width: 35vw;
+   max-height: 35vw;
+ }
+ hr {
+   clear: both;
+ }
+ /* NAV BAR */
  #nav-bar {
   width: 100%;
   display: inline-flex;
@@ -72,6 +117,7 @@
    margin: 5vw auto;
    border-radius: 1vw;
  }
+/* FAQ PAGE */
 
 
  /* FOOTER */
@@ -90,4 +136,5 @@
    margin-left: 3vw;
    width: 100%;
  }
-/* font-family: 'Lato', sans-serif; */
+ /* font-family: 'Bad Script', cursive;
+ font-family: 'Lato', sans-serif; */
