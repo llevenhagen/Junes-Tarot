@@ -39,6 +39,7 @@ h2 {
 
 h3 {
   color: var(--lightblue);
+  font-size: 1.7vw;
 }
 
 a {
@@ -84,6 +85,7 @@ a {
 .faq-page-img, .pr-page-img {
   max-width: 35vw;
   max-height: 35vw;
+  border-radius: .2vw;
 }
 
 hr {
@@ -150,29 +152,60 @@ hr {
 }
 
 /* PRIVATE READINGS PAGE */
-/* PRIVATE READINGS SECTION */
 #private-readings-section-img {
-  margin: -30vw 2vw 5vw auto;
+  margin: -25vw 2vw 5vw auto;
 }
 #live-or-email-img {
-  margin: -23vw 2vw 5vw auto;
+  margin: -17vw 2vw 5vw auto;
 }
 #rates-section-img {
   margin: 5vw auto 5vw 2vw;
 }
-#private-readings-div p, #live-oremail-div p {
-  margin: 4vw auto;
+#private-readings-div p, #live-oremail-div p, #payment-div p, #payment-list, #reschedule-cancel-refund-div p, #walk-in-p, #first-n-third-saturdays {
+  margin: 2.5vw auto;
   line-height: 150%;
 }
 #rates-table {
-  margin-top: 5vw;
   margin-left: 13vw;
+  margin-bottom: 5vw;
 }
 .table-left {
   width: 30vw;
 }
 /* FAQ PAGE */
-/* FOOTER */
+ #payment-section-img {
+   max-width: 25vw;
+   max-height: 25vw;
+   margin: -15vw 5vw 5vw auto;
+ }
+ .negative-margin-bottom h3 {
+   margin-bottom: -10vw;
+ }
+ .vl {
+   height: 60vw;
+   width: .2vw;
+   background: var(--greyline);
+   margin: 5vw 2vw auto;
+ }
+ #cancel-section-right {
+   width: 80%;
+ }
+ #reschedule-section-img {
+   max-width: 37vw;
+   max-height: 37vw;
+   margin: 5vw;
+ }
+ #walkin-section-img {
+   margin: 5vw 5vw 5vw 7vw;
+ }
+ #walk-in-table-left {
+   width: 10vw;
+   margin-left: 4vw;
+ }
+ #walk-in-table-right {
+  margin: auto 3vw auto 3vw;
+}
+  /* FOOTER */
 footer {
   background: var(--babyblue);
   width: 100%;
