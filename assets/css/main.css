@@ -8,133 +8,187 @@
   --babypowder: #FEFEFA;
   --babyblue: #85e1db;
 }
+
 /* GENERAL */
- html {
-   width: 100vw;
- }
- body {
-   width: 100vw;
- }
- *{
-   background: var(--babypowder);
-   font-family: 'Lato', sans-serif;
- }
- nav{
-   width: 100%;
-   border-bottom: .02vw solid var(--puceblue);
- }
- h2 {
+html {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+}
+
+* {
+  background: var(--babypowder);
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5vw;
+}
+
+nav {
+  width: 100%;
+  border-bottom: .02vw solid var(--puceblue);
+}
+
+h2 {
   color: var(--puceblue);
   font-family: 'Bad Script', cursive;
   text-align: center;
   text-decoration: underline;
- }
- h3 {
+  font-size: 2VW;
+}
+
+h3 {
   color: var(--lightblue);
- }
- a {
+}
+
+a {
   color: var(--red);
   font-weight: bold;
- }
- .contact-me-link {
+}
+
+.contact-me-link {
   font-family: 'Bad Script', cursive;
   font-weight: bold;
- }
- .textalign-center {
+  font-size: 1.7vw;
+}
+
+.textalign-center {
   text-align: center;
- }
- .gold {
-   color: var(--golden);
- }
- .bold {
-   font-weight: bold;
- }
- .text-decoration {
-   text-decoration: underline;
- }
- .flex-container {
-   display: inline-flex;
-   justify-content: flex-start;
- }
- .float-right {
-   float: right;
- }
- .float-left {
-   float: left;
- }
- .faq-page-img, .pr-page-img {
-   max-width: 35vw;
-   max-height: 35vw;
- }
- hr {
-   clear: both;
- }
- /* NAV BAR */
- #nav-bar {
+}
+
+.gold {
+  color: var(--golden);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.faq-page-img, .pr-page-img {
+  max-width: 35vw;
+  max-height: 35vw;
+}
+
+hr {
+  clear: both;
+}
+
+/* NAV BAR */
+#nav-bar {
   width: 100%;
   display: inline-flex;
   list-style: none;
   margin-bottom: 0;
   background: white;
- }
- #nav-bar li {
-   margin: auto;
- }
- #nav-bar a {
+  margin-bottom: .2vw;
+}
+
+#nav-bar li {
+  margin: auto;
+}
+
+#nav-bar a {
   color: black;
   background: white;
   font-family: 'Bad Script', cursive;
   font-size: 1.7vw;
   margin: auto;
- }
- #nav-bar a:hover {
-   text-decoration: none;
-   color: var(--red);
- }
- #header-img {
-   width: 100%;
- }
- /* MAIN PAGE  */
- #main-body {
-   background: rgba(132, 224, 218, 0.2);
-   text-align: center;
-   width: 100%;
- }
- #main-image-text {
-   color: var(--babypowder);
-    font-family: 'Lato', sans-serif;
-    width: 40%;
-    text-align: right;
-    margin-top: 6vw;
-    margin-left: 42vw;
-    position: absolute;
-    background: none;
-    font-size: 2vw;
- }
- #main-page-image {
-   background: rgba(132, 224, 218, 0.2);
-   width: 65%;
-   margin: 5vw auto;
-   border-radius: 1vw;
- }
+}
+
+#nav-bar a:hover {
+  text-decoration: none;
+  color: var(--red);
+}
+
+#header-img {
+  width: 100%;
+}
+.main {
+  margin: auto 3vw;
+}
+/* MAIN PAGE  */
+#main-body {
+  background: rgba(132, 224, 218, 0.2);
+  text-align: center;
+  width: 100%;
+}
+
+#main-image-text {
+  color: var(--babypowder);
+  font-family: 'Lato', sans-serif;
+  width: 40%;
+  text-align: right;
+  margin-top: 6vw;
+  margin-left: 42vw;
+  position: absolute;
+  background: none;
+  font-size: 2vw;
+}
+
+#main-page-image {
+  background: rgba(132, 224, 218, 0.2);
+  width: 65%;
+  margin: 5vw auto;
+  border-radius: 1vw;
+}
+
+/* PRIVATE READINGS PAGE */
+/* PRIVATE READINGS SECTION */
+#private-readings-section-img {
+  margin: -30vw 2vw 5vw auto;
+}
+#live-or-email-img {
+  margin: -23vw 2vw 5vw auto;
+}
+#rates-section-img {
+  margin: 5vw auto 5vw 2vw;
+}
+#private-readings-div p, #live-oremail-div p {
+  margin: 4vw auto;
+  line-height: 150%;
+}
+#rates-table {
+  margin-top: 5vw;
+  margin-left: 13vw;
+}
+.table-left {
+  width: 30vw;
+}
 /* FAQ PAGE */
+/* FOOTER */
+footer {
+  background: var(--babyblue);
+  width: 100%;
+}
 
+footer p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 1vw;
+  margin-top: 0;
+  background: var(--babyblue);
+  color: var(--babypowder);
+  line-height: 300%;
+  margin-left: 3vw;
+  width: 100%;
+}
 
- /* FOOTER */
- footer {
-    background: var(--babyblue);
-    width: 100%;
- }
- footer p{
-   text-align: left;
-   font-family: 'Lato', sans-serif;
-   font-size: 1vw;
-   margin-top: 0;
-   background: var(--babyblue);
-   color: var(--babypowder);
-   line-height: 300%;
-   margin-left: 3vw;
-   width: 100%;
- }
- /* font-family: 'Bad Script', cursive;
+/* font-family: 'Bad Script', cursive;
  font-family: 'Lato', sans-serif; */
