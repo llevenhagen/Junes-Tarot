@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Book A Reading</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
-  </head>
-  <body>
-    <a href="/"><img id="header-img" src="../assets/css/images/june-header-blue.png"/></a>
-      <!-- <img src="images/june-header.png"/> -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Book A Reading</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+</head>
+
+<body>
+  <a href="/"><img id="header-img" src="../assets/css/images/june-header-blue.png" /></a>
+  <!-- <img src="images/june-header.png"/> -->
 <nav>
   <ul id="nav-bar">
     <li><a href="/private-readings">Private Readings</a></li>
@@ -17,9 +22,30 @@
   </ul>
 </nav>
 
-      
-      <footer>
-        <p>&copy; 2018 Designed and Built by Laura Levenhagen</p>
-      </footer>
-  </body>
+  <form action="https://formspree.io/lauramlevenhagen@gmail.com" method="POST">
+  <div class="form-row">
+  <div class="col">
+    <label for="validationDefault01">Your Name</label>
+    <input class=" form-control form-control-sm" id="validationDefault01" placeholder="Enter your name" type="text" name="_replyto" required>
+  </div>
+  <div class="col">
+    <label for="validationDefault02">Your Email Address</label>
+    <input class=" form-control form-control-sm" id="validationDefault02" aria-describedby="emailHelp" placeholder="Enter your email" type="text" name="name" required>
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="validationDefault03">Your Message</label>
+    <textarea class="form-control form-control-lg" id="validationDefault03" placeholder="Enter your message" type="text" name="message" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+  <footer>
+    <p>&copy; 2018 Designed and Built by Laura Levenhagen</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
 </html>

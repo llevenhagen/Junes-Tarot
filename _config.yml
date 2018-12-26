@@ -1,0 +1,17 @@
+# Jekyll main configuration file
+# See https://jekyllrb.com/docs/configuration/ to further customize this file
+# Defaults settings https://jekyllrb.com/docs/configuration/#default-configuration
+
+title: June's Tarot
+email: tarot@jlowatari.com
+description: "This site is designed to offer information about June's Tarot business, including pricing and payment options, cancellation, rescheduling, and refund policies, booking information and contact information."
+
+url: # (optional) https://example.com, defaults to http://localhost:4000 in development
+
+permalink: date # how your URLs are built, see https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
+
+
+# Files to excludes from your website
+exclude:
+- .gitignore
+- CNAME

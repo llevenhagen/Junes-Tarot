@@ -26,10 +26,12 @@ body {
 
 nav {
   width: 100%;
+  padding-bottom: .5vw;
   border-bottom: .02vw solid var(--puceblue);
 }
 
 h2 {
+  margin-top: 2vw;
   color: var(--puceblue);
   font-family: 'Bad Script', cursive;
   text-align: center;
@@ -41,12 +43,16 @@ h3 {
   color: var(--lightblue);
   font-size: 1.7vw;
 }
-
+h4 {
+  font-size: 1.5vw;
+}
 a {
   color: var(--red);
   font-weight: bold;
 }
-
+.main {
+  margin: auto 3vw;
+}
 .contact-me-link {
   font-family: 'Bad Script', cursive;
   font-weight: bold;
@@ -122,9 +128,7 @@ hr {
 #header-img {
   width: 100%;
 }
-.main {
-  margin: auto 3vw;
-}
+
 /* MAIN PAGE  */
 #main-body {
   background: rgba(132, 224, 218, 0.2);
@@ -162,7 +166,7 @@ hr {
   margin: 5vw auto 5vw 2vw;
 }
 #private-readings-div p, #live-oremail-div p, #payment-div p, #payment-list, #reschedule-cancel-refund-div p, #walk-in-p, #first-n-third-saturdays {
-  margin: 2.5vw auto;
+  margin: 2.2vw auto;
   line-height: 150%;
 }
 #rates-table {
@@ -171,6 +175,11 @@ hr {
 }
 .table-left {
   width: 30vw;
+}
+/* BOOKING PAGE */
+form {
+  width: 60%;
+  margin: 10vw auto;
 }
 /* FAQ PAGE */
  #payment-section-img {
@@ -205,6 +214,7 @@ hr {
  #walk-in-table-right {
   margin: auto 3vw auto 3vw;
 }
+
   /* FOOTER */
 footer {
   background: var(--babyblue);
