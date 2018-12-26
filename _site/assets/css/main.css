@@ -7,6 +7,7 @@
   --whitedsmoke: #f5f5f5;
   --babypowder: #FEFEFA;
   --babyblue: #85e1db;
+  --yellow: #eace31;
 }
 
 /* GENERAL */
@@ -16,6 +17,7 @@ html {
 
 body {
   width: 100vw;
+  background: var(--babypowder);
 }
 
 * {
@@ -50,9 +52,18 @@ a {
   color: var(--red);
   font-weight: bold;
 }
+.main a {
+  text-decoration: underline;
+}
+.main a:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
 .main {
   margin: auto 3vw;
+  background: var(--babypowder);
 }
+
 .contact-me-link {
   font-family: 'Bad Script', cursive;
   font-weight: bold;
@@ -104,7 +115,7 @@ hr {
   display: inline-flex;
   list-style: none;
   margin-bottom: 0;
-  background: white;
+  background: var(--babypowder);
   margin-bottom: .2vw;
 }
 
@@ -118,6 +129,7 @@ hr {
   font-family: 'Bad Script', cursive;
   font-size: 1.7vw;
   margin: auto;
+  padding: none;
 }
 
 #nav-bar a:hover {
@@ -179,7 +191,22 @@ hr {
 /* BOOKING PAGE */
 form {
   width: 60%;
-  margin: 10vw auto;
+  margin: auto auto 5vw;
+}
+.form-row {
+  margin-bottom: 2vw;
+}
+button {
+  background: var(--red);
+  color: var(--babypowder);
+  width: 18%;
+  margin-left: 41%;
+  margin-top: 2.5vw;
+}
+#booking-img {
+  width: 20%;
+  margin: 3vw 40% 2vw;
+  border-radius: 50%;
 }
 /* FAQ PAGE */
  #payment-section-img {
@@ -214,11 +241,16 @@ form {
  #walk-in-table-right {
   margin: auto 3vw auto 3vw;
 }
-
+#rights-reserved {
+  font-size: 1.3vw;
+  margin-top: 3vw;
+}
   /* FOOTER */
 footer {
-  background: var(--babyblue);
+  background: black;
   width: 100%;
+  margin-top: 3vw;
+  margin-left: 0;
 }
 
 footer p {
@@ -226,9 +258,9 @@ footer p {
   font-family: 'Lato', sans-serif;
   font-size: 1vw;
   margin-top: 0;
-  background: var(--babyblue);
+  background: black;
   color: var(--babypowder);
-  line-height: 300%;
+  line-height: 200%;
   margin-left: 3vw;
   width: 100%;
 }
