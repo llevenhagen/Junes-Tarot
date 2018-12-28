@@ -323,7 +323,7 @@ li .dropdown {
   background: rgba(132, 224, 218, 0.2);
 }
 #private-readings-section-img {
-  margin: -25vw 0vw 5vw auto;
+  margin: -25vw 1vw 5vw auto;
 }
 
 #live-oremail-psection {
@@ -333,7 +333,7 @@ li .dropdown {
 }
 
 #live-or-email-img {
-  margin: -28vw 4vw 5vw auto;
+  margin: -28.5vw 3.5vw 5vw 1vw;
   z-index: 15;
   /* max-height: 24vw; */
 }
@@ -341,7 +341,7 @@ li .dropdown {
   background: rgb(218, 175, 2, .3);
 }
 #rates-section-img {
-  margin: 5vw auto 5vw 0vw;
+  margin: 5vw auto 5vw 10vw;
 }
 
 #private-readings p, #live-oremail p, #payment p, #payment-list, #policies p, #walk-in-p, #first-n-third-saturdays {
@@ -350,13 +350,16 @@ li .dropdown {
 }
 
 #rates-table {
-  margin-left: 5vw;
+  margin-left: 2vw;
   margin-bottom: 5vw;
-
+  /* width: 20vw; */
 }
 
 .table-left {
-  width: 30vw;
+  width: 35vw;
+}
+.table-right {
+  width: 10vw;
 }
 
 /* BOOKING PAGE */
