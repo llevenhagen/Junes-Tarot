@@ -9,6 +9,7 @@
   --babyblue: #85e1db;
   --yellow: #eace31;
 }
+
 /* experimental css for main page */
 .main-page-img {
   width: 20%;
@@ -25,6 +26,7 @@
   -moz-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
   box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
 }
+
 #main-image-text {
   color: var(--puceblue);
   font-family: 'Lato', sans-serif;
@@ -34,6 +36,7 @@
   background: none;
   font-size: 1.7vw;
 }
+
 #two-cups:hover {
   background: var(--puceblue);
   background-size: contain;
@@ -41,6 +44,7 @@
   background-image: url('images/two-of-cups.png');
   transition: .5s ease-in-out;
 }
+
 #hierophant:hover {
   background: var(--puceblue);
   background-size: cover;
@@ -48,6 +52,7 @@
   background-image: url('images/the-hierophant.png');
   transition: .5s ease-in-out;
 }
+
 #page-cups:hover {
   background: var(--puceblue);
   background-size: contain;
@@ -55,6 +60,7 @@
   background-image: url('images/page-of-cups.png');
   transition: .5s ease-in-out;
 }
+
 /* GENERAL */
 html {
   width: 100vw;
@@ -77,9 +83,11 @@ nav {
   padding-bottom: .5vw;
   border-bottom: .02vw solid var(--puceblue);
 }
+
 div {
   position: relative;
 }
+
 h2 {
   position: relative;
   margin-top: 2vw;
@@ -94,23 +102,29 @@ h3 {
   color: var(--lightblue);
   font-size: 1.7vw;
 }
+
 h4 {
   font-size: 1.5vw;
 }
+
 a {
   color: var(--red);
   font-weight: bold;
 }
+
 .main a {
   text-decoration: underline;
 }
+
 .main a:hover {
   color: var(--yellow);
   cursor: pointer;
 }
+
 .main {
   position: relative;
-  margin: auto 3vw;
+  /* margin: auto 5vw; */
+  margin: auto;
   background: var(--babypowder);
   z-index: 1;
 }
@@ -151,13 +165,38 @@ a {
 }
 
 .faq-page-img, .pr-page-img {
-  max-width: 35vw;
-  max-height: 35vw;
+  max-width: 27vw;
+  max-height: 27vw;
   border-radius: .2vw;
 }
 
 hr {
   clear: both;
+}
+
+/* SOCIAL MEDIA DIV */
+#social-media {
+  display: block;
+  /* background: var(--puceblue); */
+  background: rgba(0, 0, 0, 0);
+  height: 20vw;
+  width: 4.5vw;
+  right: 0;
+  top: 0;
+  margin-top: 27vw;
+  position: fixed;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: .5vw;
+  z-index: 15;
+}
+
+#social-media img {
+  width: 4vw;
+  display: block;
+  margin: 1.5vw auto;
+  background: var(--puceblue);
+  border-radius: .5vw;
 }
 
 /* NAV BAR */
@@ -197,13 +236,16 @@ hr {
   padding-left: 4vw;
   background: var(--babypowder);
 }
+
 /* DROPDOWN */
 li .dropdown {
   position: absolute;
 }
+
 #pr-dropdown {
   margin-bottom: 2vw;
 }
+
 .dropdown-content {
   max-height: 0;
   overflow: hidden;
@@ -214,6 +256,7 @@ li .dropdown {
   margin-left: 8vw;
   border-radius: .5vw;
 }
+
 .dropdown-content a {
   display: block;
   text-align: left;
@@ -223,15 +266,16 @@ li .dropdown {
   font-size: 1.7vw;
   line-height: 150%;
 }
-.dropdown:hover .dropdown-content{
+
+.dropdown:hover .dropdown-content {
   margin-top: .5vw;
   max-height: 30vw;
   position: relative;
   z-index: 10;
   border-top: .05vw solid var(--greyline);
-  -webkit-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.29);
-  -moz-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.29);
-  box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.29);
 }
 
 /* MAIN PAGE  */
@@ -253,7 +297,6 @@ li .dropdown {
   background: none;
   font-size: 2vw;
 } */
-
 #main-page-image {
   background: rgba(132, 224, 218, 0.2);
   width: 65%;
@@ -262,34 +305,73 @@ li .dropdown {
 }
 
 /* PRIVATE READINGS PAGE */
-#private-readings-section-img {
-  margin: -25vw 2vw 5vw auto;
+#pink-div {
+  background: rgb(232, 159, 201, .3);
 }
+#pink-div, #blue-div, #yellow-div {
+  padding: 2vw;
+  border-radius: 3vw;
+}
+#private-readings, #live-oremail, #rates {
+  border-radius: 7vw;
+  padding: 2vw 3vw 3vw;
+  width: 95%;
+  margin: auto;
+}
+
+#blue-div {
+  background: rgba(132, 224, 218, 0.2);
+}
+#private-readings-section-img {
+  margin: -25vw 1vw 5vw auto;
+}
+
+#live-oremail-psection {
+  width: 75%;
+  clear: both;
+  margin-left: 23vw;
+}
+
 #live-or-email-img {
-  margin: -17vw 2vw 5vw auto;
+  margin: -28.5vw 3.5vw 5vw 1vw;
+  z-index: 15;
+  /* max-height: 24vw; */
+}
+#yellow-div {
+  background: rgb(218, 175, 2, .3);
 }
 #rates-section-img {
-  margin: 5vw auto 5vw 2vw;
+  margin: 5vw auto 5vw 10vw;
 }
+
 #private-readings p, #live-oremail p, #payment p, #payment-list, #policies p, #walk-in-p, #first-n-third-saturdays {
   margin: 2.2vw auto;
   line-height: 150%;
 }
+
 #rates-table {
-  margin-left: 13vw;
+  margin-left: 2vw;
   margin-bottom: 5vw;
+  /* width: 20vw; */
 }
+
 .table-left {
-  width: 30vw;
+  width: 35vw;
 }
+.table-right {
+  width: 10vw;
+}
+
 /* BOOKING PAGE */
 form {
   width: 60%;
   margin: auto auto 5vw;
 }
+
 .form-row {
   margin-bottom: 2vw;
 }
+
 button {
   background: var(--red);
   color: var(--babypowder);
@@ -297,52 +379,63 @@ button {
   margin-left: 41%;
   margin-top: 2.5vw;
 }
+
 #booking-img {
   width: 20%;
   margin: 3vw 40% 2vw;
   border-radius: 50%;
 }
+
 /* FAQ PAGE */
 /* #payment {
   position: relative;
 } */
- #payment-section-img {
-   max-width: 25vw;
-   max-height: 25vw;
-   margin: -20vw 5vw 5vw auto;
- }
- .negative-margin-bottom h3 {
-   margin-bottom: -10vw;
- }
- .vl {
-   height: 60vw;
-   width: .2vw;
-   background: var(--greyline);
-   margin: 5vw 2vw auto;
- }
- #cancel-section-right {
-   width: 80%;
- }
- #reschedule-section-img {
-   max-width: 37vw;
-   max-height: 37vw;
-   margin: 5vw;
- }
- #walkin-section-img {
-   margin: 5vw 5vw 5vw 7vw;
- }
- #walk-in-table-left {
-   width: 10vw;
-   margin-left: 4vw;
- }
- #walk-in-table-right {
+#payment-section-img {
+  max-width: 25vw;
+  max-height: 25vw;
+  margin: -20vw 5vw 5vw auto;
+}
+
+.negative-margin-bottom h3 {
+  margin-bottom: -10vw;
+}
+
+.vl {
+  height: 60vw;
+  width: .2vw;
+  background: var(--greyline);
+  margin: 5vw 2vw auto;
+}
+
+#cancel-section-right {
+  width: 80%;
+}
+
+#reschedule-section-img {
+  max-width: 37vw;
+  max-height: 37vw;
+  margin: 5vw;
+}
+
+#walkin-section-img {
+  margin: 5vw 5vw 5vw 7vw;
+}
+
+#walk-in-table-left {
+  width: 10vw;
+  margin-left: 4vw;
+}
+
+#walk-in-table-right {
   margin: auto 3vw auto 3vw;
 }
+
 #rights-reserved {
   font-size: 1.3vw;
   margin-top: 3vw;
 }
-  /* FOOTER */
+
+/* FOOTER */
 footer {
   background: black;
   width: 100%;
