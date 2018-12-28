@@ -122,7 +122,7 @@ a {
 }
 
 .main {
-  position: relative;
+  /* position: relative; */
   /* margin: auto 5vw; */
   margin: auto;
   background: var(--babypowder);
@@ -137,10 +137,6 @@ a {
 
 .textalign-center {
   text-align: center;
-}
-
-.gold {
-  color: var(--golden);
 }
 
 .bold {
@@ -167,7 +163,7 @@ a {
 .faq-page-img, .pr-page-img {
   max-width: 27vw;
   max-height: 27vw;
-  border-radius: .2vw;
+  border-radius: 15%;
 }
 
 hr {
@@ -305,21 +301,21 @@ li .dropdown {
 }
 
 /* PRIVATE READINGS PAGE */
-#pink-div {
+.pink-div {
   background: rgb(232, 159, 201, .3);
 }
-#pink-div, #blue-div, #yellow-div {
+.pink-div, .blue-div, .yellow-div {
   padding: 2vw;
   border-radius: 3vw;
 }
-#private-readings, #live-oremail, #rates {
+#private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
   border-radius: 7vw;
   padding: 2vw 3vw 3vw;
   width: 95%;
   margin: auto;
 }
 
-#blue-div {
+.blue-div {
   background: rgba(132, 224, 218, 0.2);
 }
 #private-readings-section-img {
@@ -337,14 +333,14 @@ li .dropdown {
   z-index: 15;
   /* max-height: 24vw; */
 }
-#yellow-div {
+.yellow-div {
   background: rgb(218, 175, 2, .3);
 }
 #rates-section-img {
   margin: 5vw auto 5vw 10vw;
 }
 
-#private-readings p, #live-oremail p, #payment p, #payment-list, #policies p, #walk-in-p, #first-n-third-saturdays {
+#private-readings p, #live-oremail p, #payment p, #policies p, #walk-in-p, #first-n-third-saturdays {
   margin: 2.2vw auto;
   line-height: 150%;
 }
@@ -387,15 +383,21 @@ button {
 }
 
 /* FAQ PAGE */
-/* #payment {
-  position: relative;
-} */
+#payment {
+  background: var(--babypowder);
+}
 #payment-section-img {
   max-width: 25vw;
   max-height: 25vw;
-  margin: -20vw 5vw 5vw auto;
+  margin: -25vw 2vw 5vw auto;
 }
-
+#payment-list {
+  color: var(--golden);
+  width: 55%;
+  margin-top: 2.2vw;
+  margin-bottom: 2.2vw;
+  line-height: 150%;
+}
 .negative-margin-bottom h3 {
   margin-bottom: -10vw;
 }
@@ -411,12 +413,21 @@ button {
   width: 80%;
 }
 
-#reschedule-section-img {
+/* #reschedule-section-img {
   max-width: 37vw;
   max-height: 37vw;
   margin: 5vw;
+} */
+#reschedule-images {
+  width: 100;
+  display: inline-block;
 }
-
+#reschedule-images img {
+  width: 20vw;
+  height: 20vw;
+  display: inline-block;
+  margin: 1.5vw
+}
 #walkin-section-img {
   margin: 5vw 5vw 5vw 7vw;
 }
