@@ -159,7 +159,29 @@ a {
 hr {
   clear: both;
 }
-
+/* SOCIAL MEDIA DIV */
+#social-media {
+  display: block;
+  /* background: var(--puceblue); */
+  background: rgba(0,0,0,0);
+  height: 20vw;
+  width: 4.5vw;
+  right: 0;
+  top: 0;
+  margin-top: 27vw;
+  position: fixed;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: .5vw;
+  z-index: 15;
+}
+#social-media img {
+  width: 4vw;
+  display: block;
+  margin: 1.5vw auto;
+  background: var(--puceblue);
+  border-radius: .5vw;
+}
 /* NAV BAR */
 #nav-bar {
   width: 100%;
