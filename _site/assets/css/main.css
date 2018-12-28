@@ -16,6 +16,7 @@ html {
 }
 
 body {
+  position: relative;
   width: 100vw;
   background: var(--babypowder);
 }
@@ -31,8 +32,11 @@ nav {
   padding-bottom: .5vw;
   border-bottom: .02vw solid var(--puceblue);
 }
-
+div {
+  position: relative;
+}
 h2 {
+  position: relative;
   margin-top: 2vw;
   color: var(--puceblue);
   font-family: 'Bad Script', cursive;
@@ -60,8 +64,10 @@ a {
   cursor: pointer;
 }
 .main {
+  position: relative;
   margin: auto 3vw;
   background: var(--babypowder);
+  z-index: 1;
 }
 
 .contact-me-link {
@@ -114,13 +120,13 @@ hr {
   width: 100%;
   display: inline-flex;
   list-style: none;
-  margin-bottom: 0;
   background: var(--babypowder);
-  margin-bottom: .2vw;
+  /* margin-bottom: .2vw; */
 }
 
 #nav-bar li {
   margin: auto;
+  text-align: center;
 }
 
 #nav-bar a {
@@ -140,12 +146,37 @@ hr {
 #header-img {
   width: 100%;
 }
+/* DROPDOWN */
+li .dropdown {
+  /* display: inline-block;
+  margin: 0;
+  padding: 0; */
+}
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  margin-top: -1vw;
+  margin-left: -4.5vw;
+}
+.dropdown-content a {
+  display: block;
+  text-align: left;
+  background: var(--babypowder);
+  padding: .5vw;
+  border-bottom: .05vw solid var(--greyline);
+}
+.dropdown:hover .dropdown-content {
+  max-height: 100%;
+  position: fixed;
+  z-index: 10;
+}
 
 /* MAIN PAGE  */
 #main-body {
   background: rgba(132, 224, 218, 0.2);
   text-align: center;
   width: 100%;
+  position: relative;
 }
 
 #main-image-text {
@@ -209,6 +240,9 @@ button {
   border-radius: 50%;
 }
 /* FAQ PAGE */
+#payment-div {
+  position: relative;
+}
  #payment-section-img {
    max-width: 25vw;
    max-height: 25vw;
