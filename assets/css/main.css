@@ -9,7 +9,52 @@
   --babyblue: #85e1db;
   --yellow: #eace31;
 }
-
+/* experimental css for main page */
+.main-page-img {
+  width: 20%;
+  height: 33vw;
+  margin: 2vw;
+  border-radius: 10%;
+  border: .5vw solid var(--babypowder);
+  background: black;
+  background-image: url('images/tarot-card-back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  -webkit-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
+  -moz-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
+  box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
+}
+#main-image-text {
+  color: var(--puceblue);
+  font-family: 'Lato', sans-serif;
+  width: 70%;
+  text-align: center;
+  margin: 3vw auto 2vw;
+  background: none;
+  font-size: 1.7vw;
+}
+#two-cups:hover {
+  background: var(--puceblue);
+  background-size: contain;
+  repeat: no-repeat;
+  background-image: url('images/two-of-cups.png');
+  transition: .5s ease-in-out;
+}
+#hierophant:hover {
+  background: var(--puceblue);
+  background-size: cover;
+  repeat: no-repeat;
+  background-image: url('images/the-hierophant.png');
+  transition: .5s ease-in-out;
+}
+#page-cups:hover {
+  background: var(--puceblue);
+  background-size: contain;
+  repeat: no-repeat;
+  background-image: url('images/page-of-cups.png');
+  transition: .5s ease-in-out;
+}
 /* GENERAL */
 html {
   width: 100vw;
@@ -144,10 +189,13 @@ hr {
 #nav-bar a:hover {
   text-decoration: none;
   color: var(--red);
+  cursor: pointer;
 }
 
 #header-img {
   width: 100%;
+  padding-left: 4vw;
+  background: var(--babypowder);
 }
 /* DROPDOWN */
 li .dropdown {
@@ -159,10 +207,12 @@ li .dropdown {
 .dropdown-content {
   max-height: 0;
   overflow: hidden;
+  /* top: 20vw; */
   margin-top: -2vw;
   text-align: center;
   width: 15vw;
   margin-left: 8vw;
+  border-radius: .5vw;
 }
 .dropdown-content a {
   display: block;
@@ -175,8 +225,8 @@ li .dropdown {
 }
 .dropdown:hover .dropdown-content{
   margin-top: .5vw;
-  max-height: 100%;
-  position: fixed;
+  max-height: 30vw;
+  position: relative;
   z-index: 10;
   border-top: .05vw solid var(--greyline);
   -webkit-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.29);
@@ -192,7 +242,7 @@ li .dropdown {
   position: relative;
 }
 
-#main-image-text {
+/* #main-image-text {
   color: var(--babypowder);
   font-family: 'Lato', sans-serif;
   width: 40%;
@@ -202,7 +252,7 @@ li .dropdown {
   position: absolute;
   background: none;
   font-size: 2vw;
-}
+} */
 
 #main-page-image {
   background: rgba(132, 224, 218, 0.2);
@@ -259,7 +309,7 @@ button {
  #payment-section-img {
    max-width: 25vw;
    max-height: 25vw;
-   margin: -15vw 5vw 5vw auto;
+   margin: -20vw 5vw 5vw auto;
  }
  .negative-margin-bottom h3 {
    margin-bottom: -10vw;
