@@ -92,10 +92,13 @@ h2 {
   position: relative;
   margin-top: 2vw;
   color: var(--puceblue);
-  font-family: 'Bad Script', cursive;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Aladin', cursive; */
+  /* font-family: 'Bad Script', cursive; */
   text-align: center;
   text-decoration: underline;
   font-size: 2VW;
+  font-weight: 600;
 }
 
 h3 {
@@ -229,7 +232,7 @@ hr {
 
 #header-img {
   width: 100%;
-  padding-left: 4vw;
+  /* padding-left: 4vw; */
   background: var(--babypowder);
 }
 
@@ -465,6 +468,13 @@ footer p {
   margin-left: 3vw;
   width: 100vw;
 }
-
-/* font-family: 'Bad Script', cursive;
- font-family: 'Lato', sans-serif; */
+/*
+font-family: 'Aladin', cursive;
+font-family: 'Redressed', cursive;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Patrick Hand SC', cursive;
+font-family: 'Short Stack', cursive;
+font-family: 'Itim', cursive;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Lato', sans-serif; */
