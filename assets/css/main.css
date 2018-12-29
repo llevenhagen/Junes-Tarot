@@ -222,9 +222,11 @@ hr {
   color: black;
   /* background: white; */
   font-family: 'Bad Script', cursive;
-  font-size: 1.7vw;
   margin: auto;
   padding: none;
+}
+#pr-dropdown, #booking-a, #faq-dropdown {
+  font-size: 1.7vw;
 }
 
 #nav-bar a:hover {
@@ -251,10 +253,9 @@ li .dropdown {
 .dropdown-content {
   max-height: 0;
   overflow: hidden;
-  /* top: 20vw; */
   margin-top: -2vw;
   text-align: center;
-  width: 15vw;
+  width: 16vw;
   margin-left: 8vw;
   border-radius: .5vw;
 }
@@ -265,8 +266,8 @@ li .dropdown {
   background: var(--babypowder);
   padding: .7vw 1vw;
   border-bottom: .05vw solid var(--greyline);
-  font-size: 1.7vw;
   line-height: 150%;
+  font-size: 1.5vw;
 }
 
 .dropdown:hover .dropdown-content {
