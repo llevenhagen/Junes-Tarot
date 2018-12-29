@@ -131,7 +131,10 @@ a {
   background: var(--babypowder);
   z-index: 1;
 }
-
+.contact-div {
+  margin: auto;
+  width: 85%;
+}
 .contact-me-link {
   font-family: 'Bad Script', cursive;
   font-weight: bold;
