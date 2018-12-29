@@ -232,7 +232,7 @@ hr {
 
 #header-img {
   width: 100%;
-  /* padding-left: 4vw; */
+  margin-left: -1vw;
   background: var(--babypowder);
 }
 
