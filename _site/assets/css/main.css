@@ -38,7 +38,7 @@
 }
 
 #two-cups:hover {
-  background: var(--puceblue);
+  /* background: var(--puceblue); */
   background-size: contain;
   repeat: no-repeat;
   background-image: url('images/two-of-cups.png');
@@ -46,7 +46,7 @@
 }
 
 #hierophant:hover {
-  background: var(--puceblue);
+  /* background: var(--puceblue); */
   background-size: cover;
   repeat: no-repeat;
   background-image: url('images/the-hierophant.png');
@@ -54,10 +54,10 @@
 }
 
 #page-cups:hover {
-  background: var(--puceblue);
   background-size: contain;
   repeat: no-repeat;
   background-image: url('images/page-of-cups.png');
+  /* background: var(--puceblue); */
   transition: .5s ease-in-out;
 }
 
