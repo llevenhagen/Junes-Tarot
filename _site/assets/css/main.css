@@ -100,7 +100,7 @@ h2 {
   /* font-family: 'Bad Script', cursive; */
   text-align: center;
   text-decoration: underline;
-  font-size: 2VW;
+  font-size: 2vw;
   font-weight: 600;
 }
 
@@ -422,7 +422,7 @@ button {
 }
 
 #cancel-section-right {
-  width: 80%;
+  width: 100%;
 }
 
 /* #reschedule-section-img {
@@ -438,7 +438,7 @@ button {
   width: 20vw;
   height: 20vw;
   display: inline-block;
-  margin: 1.5vw
+  margin: .5vw
 }
 #walkin-section-img {
   margin: 5vw 5vw 5vw 7vw;
@@ -483,33 +483,27 @@ footer p {
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
-/* * {
-  font-size: 3vw;
-} */
+  /* GENERAL */
+* {
+  font-size: 1.9vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+
+h3 {
+  color: var(--lightblue);
+  font-size: 2.2vw;
+}
 #nav-bar a {
   font-size: 3vw;
-}
-#main-body {
-max-height: 50vw;
-}
-#overflow-div {
-overflow-y: hidden;
-padding: 0;
-margin: 0;
-}
-#main-image-text {
-  font-size: 3vw;
-  margin-top: 8vw;
-}
-#two-cups {
-  margin-top: 9vw;
 }
 #social-media {
   display: inline-flex;
   background: var(--lightblue);
   height: 10vw;
   width: 100%;
-  margin-top: 25vw;
+  margin-top: 0;
   margin-bottom: 0;
   position: relative;
   padding: 0;
@@ -527,6 +521,12 @@ margin: 0;
   background: var(--lightblue);
   /* border-radius: .5vw; */
 }
+.contact-me-link {
+  font-size: 3vw;
+}
+.contact-div {
+  margin: 4vw auto;
+}
 footer {
   margin-top: 0
   bottom: 0;
@@ -534,6 +534,71 @@ footer {
 }
 footer p {
   font-size: 2vw;
+}
+ /* MAIN PAGE */
+#main-body {
+max-height: 50vw;
+}
+#overflow-div {
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+}
+#main-image-text {
+  font-size: 3vw;
+  margin-top: 8vw;
+}
+#two-cups {
+  margin-top: 9vw;
+  margin-bottom: 25vw;
+}
+/* PRIVATE READINGS PAGE */
+#private-readings-section-img {
+  width: 22vw;
+  margin: -20vw -1.5vw 5vw auto;
+}
+#private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
+  border-radius: 7vw;
+  padding: 2vw 3vw 3vw;
+  width: 98%;
+  margin: auto;
+  background: var(--babypowder);
+}
+#rates-section-img {
+  margin: 10vw auto 5vw 10vw;
+}
+/* FAQ PAGE */
+#payment {
+  height: 50vw;
+}
+#payment-section-img {
+  margin: -20vw 2vw 5vw auto;
+}
+#reschedule-images {
+  width: 100%;
+  display: inline-block;
+  margin-top: 5vw;
+}
+#reschedule-images img {
+  width: 22vw;
+  height: 22vw;
+  display: inline-block;
+  margin: 4vw 1vw;
+}
+#walkin-section-img {
+  /* max-width: 28vw;
+  max-height: 28vw; */
+}
+#walk-in-table-left {
+  width: 15vw;
+  margin-left: 4vw;
+}
+
+#walk-in-table-right {
+  margin: auto 3vw auto 3vw;
+}
+#rights-reserved {
+  font-size: 1.7vw;
 }
 }
 /*
