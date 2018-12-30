@@ -587,14 +587,22 @@ footer p {
   }
 
   footer {
-    margin-top: 0;
+    margin-top: -1vw;
+    margin-bottom: 1vw;
     /* bottom: 0; */
-    height: 5vw;
+    height: 3vw;
+    background: var(--lightblue);
+
   }
 
   footer p {
+    top: 0;
     font-size: 2vw;
-    width: 80%;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 2vw;
+    background: var(--lightblue);
+    z-index: 30;
   }
 
   /* ========================== IPAD MAIN PAGE */
