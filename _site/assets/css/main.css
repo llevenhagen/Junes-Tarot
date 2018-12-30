@@ -111,10 +111,12 @@ a {
   display: inline-flex;
   justify-content: flex-start;
 }
+
 .flex-container-browser {
   display: inline-flex;
   justify-content: flex-start;
 }
+
 .float-right {
   float: right;
 }
@@ -158,7 +160,7 @@ hr {
 }
 
 /*================================== NAV BAR */
-#nav-bar {
+.nav-bar {
   width: 100%;
   display: inline-flex;
   list-style: none;
@@ -166,7 +168,7 @@ hr {
   margin-bottom: 0vw;
 }
 
-#nav-bar li {
+.nav-bar li {
   margin: auto;
   text-align: center;
   width: 30%;
@@ -174,7 +176,7 @@ hr {
   margin-bottom: -.01vw;
 }
 
-#nav-bar a {
+.nav-bar a {
   color: black;
   /* background: white; */
   font-family: 'Bad Script', cursive;
@@ -186,7 +188,7 @@ hr {
   font-size: 1.7vw;
 }
 
-#nav-bar a:hover {
+.nav-bar a:hover {
   text-decoration: none;
   color: var(--red);
   cursor: pointer;
@@ -198,9 +200,15 @@ hr {
   background: var(--babypowder);
   display: block;
 }
+
 #mobile-header-a, #mobile-header-img {
   display: none;
 }
+
+#mobile-nav {
+  display: none;
+}
+
 /*================================= DROPDOWN */
 li .dropdown {
   position: absolute;
@@ -318,7 +326,6 @@ li .dropdown {
   margin: 5vw auto;
   border-radius: 1vw;
 } */
-
 /*========================== PRIVATE READINGS PAGE */
 .pink-div {
   background: rgb(246, 225, 237);
@@ -352,9 +359,11 @@ li .dropdown {
 #private-readings-section-img {
   margin: -25vw 1vw 5vw auto;
 }
+
 #private-readings-p-mobile {
-display: none;
+  display: none;
 }
+
 #live-oremail-psection {
   width: 75%;
   clear: both;
@@ -366,9 +375,11 @@ display: none;
   z-index: 15;
   /* max-height: 24vw; */
 }
+
 #email-reading-last-p-mobile {
   display: none;
 }
+
 #rates-section-img {
   margin: 5vw auto 5vw 10vw;
 }
@@ -466,9 +477,11 @@ button {
   display: inline-block;
   margin: .5vw
 }
+
 #six-wands-mobile {
   display: none;
 }
+
 #walkin-section-img {
   margin: 5vw 5vw 5vw 7vw;
 }
@@ -481,15 +494,19 @@ button {
 #walk-in-table-right {
   margin: auto 3vw auto 3vw;
 }
-#rates-email-header{
+
+#rates-email-header {
   margin-left: 14vw;
 }
+
 #rates-phone-header {
   margin-left: 10vw;
 }
+
 #rates-inperson-header {
   margin-left: 16vw;
 }
+
 #rights-reserved {
   font-size: 1.3vw;
   margin-top: 3vw;
@@ -533,7 +550,7 @@ footer p {
     font-size: 2.2vw;
   }
 
-  #nav-bar a {
+  .nav-bar a {
     font-size: 3vw;
   }
 
@@ -570,7 +587,8 @@ footer p {
   }
 
   footer {
-    margin-top: 0 bottom: 0;
+    margin-top: 0;
+    /* bottom: 0; */
     height: 5vw;
   }
 
@@ -682,15 +700,20 @@ footer p {
     font-size: 1.7vw;
   }
 }
+
 /* ==================== MOBILE PHONE SCREENS */
 @media only screen and (max-width: 600px), (max-device-width: 600px) {
+
   /* ======================= PHONE SCREEN GENERAL */
   * {
     font-size: 3vw;
   }
+
   #overflow-div {
     overflow-x: hidden;
+    position: relative;
   }
+
   h2 {
     font-size: 3.5vw;
   }
@@ -698,24 +721,29 @@ footer p {
   h3 {
     font-size: 4vw;
   }
+
   #header-img {
     display: none;
     /* position: absolute; */
   }
+
   #mobile-header-a, #mobile-header-img {
     display: block;
   }
+
   #mobile-header-img {
     display: block;
-    /* margin-left: -1.5vw; */
-    width: 100%;
+    margin-left: -20vw;
+    width: 140%;
     background: var(--babypowder);
     position: static;
   }
-  #nav-bar {
+
+  .nav-bar {
     padding-bottom: 4vw;
   }
-  #nav-bar a {
+
+  .nav-bar a {
     font-size: 3.7vw;
   }
 
@@ -739,27 +767,32 @@ footer p {
   .contact-div {
     margin: 6vw auto;
   }
+
   .pink-div, .blue-div, .yellow-div {
     padding: 5vw 2vw;
     border-radius: 3vw;
   }
+
   footer {
-    margin-top: 0 bottom: 0;
-    height: 10vw;
+    margin-top: 0;
+    /* bottom: 0; */
+    margin-bottom: 20vw;
+    height: 8vw;
+    /* position: relative; */
   }
 
   footer p {
     font-size: 3vw;
     width: 80%;
-        vertical-align: middle;
+    vertical-align: middle;
   }
 
-
   /* ========================= PHONE SCREEN MAIN  */
-.main-page-img {
-  width: 25%;
-  height: 42vw;
-}
+  .main-page-img {
+    width: 25%;
+    height: 42vw;
+  }
+
   #two-cups {
     background-image: url('images/two-of-cups.png');
     margin-top: 12vw;
@@ -773,137 +806,225 @@ footer p {
   #page-cups {
     background-image: url('images/page-of-cups.png');
   }
+
   #main-image-text {
     font-size: 4vw;
     margin-top: 8vw;
   }
+
   /* =============== PHONE SCREEN PRIVATE READINGS PAGE */
   #private-readings p, #live-oremail p, #payment p, #policies p, #walk-in-p, #first-n-third-saturdays {
     margin: 4vw auto;
   }
+
   #private-readings-p-browser {
-  display: none;
+    display: none;
   }
+
   #private-readings-p-mobile {
-  display: block;
+    display: block;
   }
+
   #private-readings-section-img {
     width: 22vw;
     height: 22vw;
     margin: -80vw 1vw 5vw 0;
   }
-/* ======================== PHONE SCREEN BOOKING PAGE */
-#booking-img {
-  width: 30%;
-  margin: 7vw 35% 0vw;
-}
 
-form {
-  margin-top: 7vw;
-  width: 85%;
+  /* ======================== PHONE SCREEN BOOKING PAGE */
+  #booking-img {
+    width: 30%;
+    margin: 7vw 35% 0vw;
+  }
 
-}
-button {
-  width: 30%;
-  margin: auto 35%;
-  margin-top: 5vw;
-  margin-bottom: 11vw;
-}
-#live-or-email-img {
-  margin: -37vw 3.5vw 5vw -1vw;
-  max-height: 30vw;
-}
-#email-reading-last-p-browser {
-  display: none;
-}
-#email-reading-last-p-mobile {
-  display: block;
-  margin-left: -10vw;
-}
-#rates-section-img {
-display: none;
-}
-#rates-table {
-  width: 100%;
-}
-.table-left {
-  width: 55vw;
-  margin-left: 7vw;
-}
-.table-right {
-  width: 50vw;
-}
-#rates-email-header{
-  margin-left: 31.5vw;
-}
-#rates-phone-header {
-  margin-left: 22vw;
-}
-#rates-inperson-header {
-  margin-left: 35vw;
-}
-/* FAQ SECTION  */
-#payment {
-  height: 80vw;
-}
-#payment-section-img {
-  margin: -27vw 2vw 5vw auto;
-}
-#payment-list {
-  font-size: 3vw;
-}
-.flex-container-browser {
-  display: block;
-}
-/* #policies p {
+  form {
+    margin-top: 7vw;
+    width: 85%;
+  }
+
+  button {
+    width: 30%;
+    margin: auto 35%;
+    margin-top: 5vw;
+    margin-bottom: 11vw;
+  }
+
+  #live-or-email-img {
+    margin: -37vw 3.5vw 5vw -1vw;
+    max-height: 30vw;
+  }
+
+  #email-reading-last-p-browser {
+    display: none;
+  }
+
+  #email-reading-last-p-mobile {
+    display: block;
+    margin-left: -10vw;
+  }
+
+  #rates-section-img {
+    display: none;
+  }
+
+  #rates-table {
+    width: 100%;
+  }
+
+  .table-left {
+    width: 55vw;
+    margin-left: 7vw;
+  }
+
+  .table-right {
+    width: 50vw;
+  }
+
+  #rates-email-header {
+    margin-left: 31.5vw;
+  }
+
+  #rates-phone-header {
+    margin-left: 22vw;
+  }
+
+  #rates-inperson-header {
+    margin-left: 35vw;
+  }
+
+  /* FAQ SECTION  */
+  #payment {
+    height: 80vw;
+  }
+
+  #payment-section-img {
+    margin: -27vw 2vw 5vw auto;
+  }
+
+  #payment-list {
+    font-size: 3vw;
+  }
+
+  .flex-container-browser {
+    display: block;
+  }
+
+  /* #policies p {
   text-align: center;
 } */
-.vl {
-  display: none;
-}
-.browser-only {
-  display: none;
-}
-.reschedule-images {
-  margin-left: 30vw;
-  margin-top: 0vw;
-  margin-bottom: 4vw;
-}
-.reschedule-images img {
-  border-radius: 50%;
-  width: 30%;
-  height: auto;
-}
-.reschedule-images #strength-card-browser, .reschedule-images #keyboard-card-browser, .reschedule-images #six-wands-browser {
-  display: none;
-}
-#six-wands-mobile {
-  display: block;
-}
-#walk-in-p {
-  text-align: left;
-}
-#walkin-section-img {
+  .vl {
+    display: none;
+  }
+
+  .browser-only {
+    display: none;
+  }
+
+  .reschedule-images {
+    margin-left: 30vw;
+    margin-top: 0vw;
+    margin-bottom: 4vw;
+  }
+
+  .reschedule-images img {
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+  }
+
+  .reschedule-images #strength-card-browser, .reschedule-images #keyboard-card-browser, .reschedule-images #six-wands-browser {
+    display: none;
+  }
+
+  #six-wands-mobile {
+    display: block;
+  }
+
+  #walk-in-p {
+    text-align: left;
+  }
+
+  #walkin-section-img {
     margin: 18vw 0vw 5vw -15vw;
     /* border-radius: 50%; */
-}
-#walk-in-h3 {
-  padding-top: 5vw;
-  width: 60vw;
-  margin-left: -1vw;
-}
-#walk-in-table-left {
-  width: 30vw;
-  margin-left: 4vw;
-}
+  }
 
-#walk-in-table-right {
-  margin: auto 3vw auto 3vw;
-}
+  #walk-in-h3 {
+    padding-top: 5vw;
+    width: 60vw;
+    margin-left: -1vw;
+  }
 
-#rights-reserved {
-  font-size: 2.5vw;
+  #walk-in-table-left {
+    width: 30vw;
+    margin-left: 4vw;
+  }
+
+  #walk-in-table-right {
+    margin: auto 3vw auto 3vw;
+  }
+
+  #rights-reserved {
+    font-size: 2.5vw;
+  }
+
+  #mobile-nav {
+    display: block;
+    padding-bottom: 10vw;
+    position: fixed;
+    z-index: 20;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    height: 18vw;
+    /* background: var(--puceblue); */
+    border-top: .5vw solid black;
+      background: rgb(51,51,51);
+    /* background: var(--red); */
+    overflow-x: hidden;
+  }
+
+  #browser-nav {
+    display: none;
+  }
+
+  #mobile-nav .nav-bar {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: -6vw;
+  }
+
+  #mobile-nav .nav-bar li {
+    width: auto;
+    margin: auto 2vw;
+    border-right: .3vw solid var(--babypowder);
+    text-align: center;
+    width: 25%;
+    height: 17vw;
+    padding: 2vw;
+  }
+
+  #mobile-nav .nav-bar a {
+    font-size: 5vw;
+    text-align: center;
+    color: var(--babypowder);
+    border-radius: .5vw;
+    width: 20vw;
+    font-family: 'Patrick Hand SC', cursive;
+    margin: auto;
+    width: 100%;
+  }
+  #mobile-nav .nav-bar #home-icon-li {
+  border: none;
+  }
+#mobile-nav .nav-bar #mobile-nav-faq a {
+  font-size: 9vw;
 }
+  #home-icon {
+    width: 9vw;
+    border: none;
+    padding: 0vw;
+  }
 }
 
 /*
