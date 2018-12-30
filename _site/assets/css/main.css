@@ -8,6 +8,7 @@
   --babypowder: #FEFEFA;
   --babyblue: #85e1db;
   --yellow: #eace31;
+  --almostblack: rgb(51,51,51);
 }
 
 /*================================ GENERAL */
@@ -27,13 +28,6 @@ body {
   /* background: var(--babypowder); */
   font-family: 'Lato', sans-serif;
   font-size: 1.5vw;
-}
-
-nav {
-  width: 100%;
-  padding-bottom: .5vw;
-  border-bottom: .02vw solid var(--puceblue);
-  background: var(--babypowder);
 }
 
 div {
@@ -164,12 +158,12 @@ hr {
   width: 100%;
   display: inline-flex;
   list-style: none;
-  /* background: var(--babypowder); */
+  background: var(--almostblack);
   margin-bottom: 0vw;
 }
 
 .nav-bar li {
-  margin: auto;
+  margin: 1vw auto;
   text-align: center;
   width: 30%;
   height: 3vw;
@@ -177,7 +171,7 @@ hr {
 }
 
 .nav-bar a {
-  color: black;
+  color: var(--babypowder);
   /* background: white; */
   font-family: 'Bad Script', cursive;
   margin: auto;
@@ -198,6 +192,7 @@ hr {
   width: 100%;
   margin-left: -1.5vw;
   background: var(--babypowder);
+  background: rgb(51,51,51);
   display: block;
 }
 
@@ -231,11 +226,14 @@ li .dropdown {
 .dropdown-content a {
   display: block;
   text-align: left;
-  background: var(--babypowder);
+  background: var(--almostblack);
   padding: .7vw 1vw;
   border-bottom: .05vw solid var(--greyline);
   line-height: 150%;
   font-size: 1.5vw;
+}
+.dropdown-content a:hover {
+  background: var(--babypowder);
 }
 
 .dropdown:hover .dropdown-content {
