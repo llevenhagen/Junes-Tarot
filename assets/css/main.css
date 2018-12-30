@@ -596,6 +596,9 @@ button {
 #payment {
   height: 50vw;
 }
+#payment-list {
+font-size: 2vw;
+}
 #payment-section-img {
   margin: -20vw 2vw 5vw auto;
 }
