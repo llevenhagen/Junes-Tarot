@@ -688,7 +688,9 @@ footer p {
   * {
     font-size: 3vw;
   }
-
+  #overflow-div {
+    overflow-x: hidden;
+  }
   h2 {
     font-size: 3.5vw;
   }
