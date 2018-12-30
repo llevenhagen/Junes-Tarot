@@ -540,6 +540,7 @@ footer {
 }
 footer p {
   font-size: 2vw;
+  width: 80%;
 }
  /* MAIN PAGE */
 #main-body {
