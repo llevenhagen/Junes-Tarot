@@ -61,10 +61,13 @@ body {
   font-family: JostBook, sans-serif;
   font-size: 1.5vw;
 }
-
-div {
+  #overflow-div {
+    /* min-height: calc(100vh); */
+    overflow: hidden;
+  }
+/* div {
   position: relative;
-}
+} */
 
 h2 {
   position: relative;
@@ -167,6 +170,8 @@ footer {
   width: 100%;
   margin-top: 3vw;
   margin-left: 0;
+  bottom: 0;
+  height: 2vw;
 }
 
 footer p {
