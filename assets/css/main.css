@@ -313,11 +313,17 @@ li .dropdown {
 
 /* PRIVATE READINGS PAGE */
 .pink-div {
-  background: rgb(232, 159, 201, .3);
+  background: rgb(246, 225, 237);
+}
+.yellow-div {
+  background: rgb(250, 237, 187);
 }
 .pink-div, .blue-div, .yellow-div {
   padding: 2vw;
   border-radius: 3vw;
+}
+.blue-div {
+  background: rgba(132, 224, 218, 0.2);
 }
 #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
   border-radius: 7vw;
@@ -344,9 +350,6 @@ li .dropdown {
   margin: -28.5vw 3.5vw 5vw 1vw;
   z-index: 15;
   /* max-height: 24vw; */
-}
-.yellow-div {
-  background: rgb(218, 175, 2, .3);
 }
 #rates-section-img {
   margin: 5vw auto 5vw 10vw;
@@ -527,12 +530,7 @@ h3 {
 .contact-div {
   margin: 4vw auto;
 }
-.pink-div {
-  background: rgb(232, 190, 214);
-}
-.yellow-div {
-  background: rgb(240, 220, 141);
-}
+
 footer {
   margin-top: 0
   bottom: 0;
