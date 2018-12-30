@@ -578,7 +578,7 @@ margin: 0;
 /* BOOKING PAGE */
 #booking-img {
 width: 30%;
-margin: 5vw 35% 2vw;
+margin: 5vw 35% 0vw;
 }
 form {
   margin-top: 7vw;
