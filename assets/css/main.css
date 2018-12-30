@@ -560,9 +560,9 @@ margin: 0;
 }
 /* PRIVATE READINGS PAGE */
 #private-readings-section-img {
-  width: 20vw;
-  height: 20vw;
-  margin: -25vw -1vw 5vw auto;
+  width: 19vw;
+  height: 19vw;
+  margin: -25vw -.7vw 5vw auto;
 }
 #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
   border-radius: 7vw;
@@ -614,7 +614,7 @@ button {
   max-height: 28vw; */
 }
 #walk-in-table-left {
-  width: 15vw;
+  width: 20vw;
   margin-left: 4vw;
 }
 
