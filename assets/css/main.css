@@ -527,6 +527,12 @@ h3 {
 .contact-div {
   margin: 4vw auto;
 }
+.pink-div {
+  background: rgb(232, 190, 214);
+}
+.yellow-div {
+  background: rgb(240, 220, 141);
+}
 footer {
   margin-top: 0
   bottom: 0;
@@ -550,12 +556,13 @@ margin: 0;
 }
 #two-cups {
   margin-top: 9vw;
-  margin-bottom: 25vw;
+  margin-bottom: 25.3vw;
 }
 /* PRIVATE READINGS PAGE */
 #private-readings-section-img {
-  width: 22vw;
-  margin: -20vw -1.5vw 5vw auto;
+  width: 20vw;
+  height: 20vw;
+  margin: -25vw -1vw 5vw auto;
 }
 #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
   border-radius: 7vw;
@@ -566,6 +573,23 @@ margin: 0;
 }
 #rates-section-img {
   margin: 10vw auto 5vw 10vw;
+}
+/* BOOKING PAGE */
+#booking-img {
+width: 30%;
+margin: 5vw 35% 2vw;
+}
+form {
+  margin-top: 7vw;
+  width: 80%;
+}
+
+.form-row {
+  margin-bottom: 3vw;
+}
+
+button {
+  margin-bottom: 6vw;
 }
 /* FAQ PAGE */
 #payment {
