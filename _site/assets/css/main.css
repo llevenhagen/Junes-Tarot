@@ -10,6 +10,38 @@
   --yellow: #eace31;
   --almostblack: rgb(51,51,51);
 }
+@font-face {
+font-family: 'JostBook';
+src: url('fonts/Jost-400-Book.otf');
+}
+@font-face {
+font-family: 'JostSemi';
+src: url('fonts/Jost-600-Semi.otf');
+}
+@font-face {
+font-family: 'JostBold';
+src: url('fonts/Jost-700-Bold.otf');
+}
+@font-face {
+font-family: 'JostBoldItalic';
+src: url('fonts/Jost-700-BoldItalic.otf');
+}
+@font-face {
+font-family: 'JostHeavy';
+src: url('fonts/Jost-800-Heavy.otf');
+}
+@font-face {
+font-family: 'JostHeavyItalic';
+src: url('fonts/Jost-800-HeavyItalic.otf');
+}
+@font-face {
+font-family: 'JostBlack';
+src: url('fonts/Jost-900-Black.otf');
+}
+@font-face {
+font-family: 'JostBlackItalic';
+src: url('fonts/Jost-900-BlackItalic.otf');
+}
 
 /*================================ GENERAL */
 html {
@@ -26,7 +58,7 @@ body {
 
 * {
   /* background: var(--babypowder); */
-  font-family: 'Lato', sans-serif;
+  font-family: JostBook, sans-serif;
   font-size: 1.5vw;
 }
 
@@ -38,7 +70,7 @@ h2 {
   position: relative;
   margin-top: 2vw;
   color: var(--puceblue);
-  font-family: 'Lato', sans-serif;
+  font-family: JostBold, sans-serif;
   /* font-family: 'Aladin', cursive; */
   /* font-family: 'Bad Script', cursive; */
   text-align: center;
@@ -50,6 +82,7 @@ h2 {
 h3 {
   color: var(--lightblue);
   font-size: 1.7vw;
+    font-family: JostSemi, serif;
 }
 
 h4 {
@@ -84,9 +117,9 @@ a {
 }
 
 .contact-me-link {
-  font-family: 'Bad Script', cursive;
+  font-family: JostBoldItalic, serif;
   font-weight: bold;
-  font-size: 1.7vw;
+  font-size: 2.5vw;
 }
 
 .textalign-center {
@@ -127,6 +160,25 @@ a {
 
 hr {
   clear: both;
+}
+/*============================== FOOTER */
+footer {
+  background:var(--almostblack);
+  width: 100%;
+  margin-top: 3vw;
+  margin-left: 0;
+}
+
+footer p {
+  text-align: left;
+  font-family: JostBook, serif;
+  font-size: 1vw;
+  margin-top: 0;
+  background: var(--almostblack);
+  color: var(--babypowder);
+  line-height: 200%;
+  margin-left: 3vw;
+  width: 100vw;
 }
 
 /*============================== SOCIAL MEDIA DIV */
@@ -183,23 +235,38 @@ hr {
 }
 
 .nav-bar a:hover {
-  text-decoration: none;
-  color: var(--red);
+  text-decoration: underline;
   cursor: pointer;
 }
 
-#header-img {
+#header-img-div {
   width: 100%;
-  margin-left: -1.5vw;
-  background: var(--babypowder);
-  background: rgb(51,51,51);
-  display: block;
+  background-image: url('images/june-header-stars.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+  height: 17.6vw;
+  text-align: center;
 }
-
-#mobile-header-a, #mobile-header-img {
-  display: none;
+#header-h1 {
+  color: var(--lightblue);
+  font-size: 9vw;
+  font-family: 'Aladin', cursive;
+  padding-top: 1.5vw;
+  margin-bottom: 0;
+  letter-spacing: .2vw;
 }
-
+#header-p {
+  font-family: JostSemi, serif;
+  font-size: 1.6vw;
+}
+#header-a:hover {
+text-decoration: none;
+}
+#wtf {
+  font-family: JostBoldItalic, serif;
+  font-style: italic;
+  font-size: 2vw;
+}
 #mobile-nav {
   display: none;
 }
@@ -232,9 +299,9 @@ li .dropdown {
   line-height: 150%;
   font-size: 1.5vw;
 }
-.dropdown-content a:hover {
+/* .dropdown-content a:hover {
   background: var(--babypowder);
-}
+} */
 
 .dropdown:hover .dropdown-content {
   margin-top: .6vw;
@@ -275,7 +342,7 @@ li .dropdown {
 
 #main-image-text {
   color: var(--puceblue);
-  font-family: 'Lato', sans-serif;
+  font-family: JostSemi, serif;
   width: 70%;
   text-align: center;
   margin: 3vw auto 2vw;
@@ -344,7 +411,7 @@ li .dropdown {
 
 #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
   border-radius: 7vw;
-  padding: 2vw 3vw 3vw;
+  padding: 2vw 2.5vw;
   width: 95%;
   margin: auto;
   background: var(--babypowder);
@@ -383,7 +450,7 @@ li .dropdown {
 }
 
 #private-readings p, #live-oremail p, #payment p, #policies p, #walk-in-p, #first-n-third-saturdays {
-  margin: 2.2vw auto;
+  margin: 1.5vw auto;
   line-height: 150%;
 }
 
@@ -442,6 +509,7 @@ button {
   margin-top: 2.2vw;
   margin-bottom: 2.2vw;
   line-height: 150%;
+  font-family: JostSemi, serif;
 }
 
 .negative-margin-bottom h3 {
@@ -510,26 +578,6 @@ button {
   margin-top: 3vw;
 }
 
-/*============================== FOOTER */
-footer {
-  background: black;
-  width: 100%;
-  margin-top: 3vw;
-  margin-left: 0;
-}
-
-footer p {
-  text-align: left;
-  font-family: 'Lato', sans-serif;
-  font-size: 1vw;
-  margin-top: 0;
-  background: black;
-  color: var(--babypowder);
-  line-height: 200%;
-  margin-left: 3vw;
-  width: 100vw;
-}
-
 /* ========================== MOBILE RESIZING */
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -547,11 +595,19 @@ footer p {
     color: var(--lightblue);
     font-size: 2.2vw;
   }
-
+  .nav-bar {
+    padding-bottom: 2vw;
+  }
   #booking-a, #pr-dropdown, #faq-dropdown{
     font-size: 3vw;
   }
 
+  #header-p {
+    font-size: 2vw;
+  }
+  #wtf {
+    font-size: 2.2vw;
+  }
   #social-media {
     display: inline-flex;
     background: var(--lightblue);
@@ -586,21 +642,23 @@ footer p {
 
   footer {
     margin-top: -1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
     /* bottom: 0; */
-    height: 3vw;
-    background: var(--lightblue);
+    height: 1vw;
+    background: none;
 
   }
 
   footer p {
     top: 0;
-    font-size: 2vw;
+    bottom: 0;
+    font-size: 1.5vw;
     width: 100%;
     margin-left: 0;
+    margin-top: 1vw;
     padding-left: 2vw;
-    background: var(--lightblue);
-    z-index: 30;
+    background: none;
+    color: var(--puceblue);
   }
 
   /* ========================== IPAD MAIN PAGE */
@@ -719,7 +777,23 @@ footer p {
     overflow-x: hidden;
     position: relative;
   }
-
+  #header-img-div {
+    background-size: contain;
+    background-repeat: repeat;
+    height: 25vw;
+  }
+  #header-h1 {
+    font-size: 13vw;
+    padding-top: 3vw;
+  }
+  #header-p {
+    font-size: 2.8vw;
+  }
+  #wtf {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3.5vw;
+  }
   h2 {
     font-size: 3.5vw;
   }
@@ -728,22 +802,6 @@ footer p {
     font-size: 4vw;
   }
 
-  #header-img {
-    display: none;
-    /* position: absolute; */
-  }
-
-  #mobile-header-a, #mobile-header-img {
-    display: block;
-  }
-
-  #mobile-header-img {
-    display: block;
-    margin-left: -20vw;
-    width: 140%;
-    background: var(--babypowder);
-    position: static;
-  }
 
   .nav-bar {
     padding-bottom: 4vw;
@@ -780,9 +838,8 @@ footer p {
   }
 
   footer {
-    margin-top: 0;
-    /* bottom: 0; */
-    margin-bottom: 18vw;
+    margin-top: -1.5vw;
+    margin-bottom: 17.7vw;
     height: 5vw;
     background: var(--lightblue);
     /* position: relative; */
@@ -822,7 +879,7 @@ footer p {
 
   /* =============== PHONE SCREEN PRIVATE READINGS PAGE */
   #private-readings p, #live-oremail p, #payment p, #policies p, #walk-in-p, #first-n-third-saturdays {
-    margin: 4vw auto;
+    margin: 2.5vw auto;
   }
 
   #private-readings-p-browser {
@@ -900,9 +957,9 @@ footer p {
     margin-left: 35vw;
   }
 
-  /* FAQ SECTION  */
+  /* PHONE SCREEN FAQ SECTION  */
   #payment {
-    height: 80vw;
+    height: 70vw;
   }
 
   #payment-section-img {
@@ -1018,7 +1075,7 @@ footer p {
     color: var(--babypowder);
     border-radius: .5vw;
     width: 20vw;
-    font-family: 'Patrick Hand SC', cursive;
+    font-family: JostBoldItalic, serif;
     margin: auto;
     width: 100%;
   }
@@ -1034,14 +1091,11 @@ footer p {
     padding: 0vw;
   }
 }
-
 /*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-family: 'Aladin', cursive;
-font-family: 'Redressed', cursive;
-font-family: 'La Belle Aurore', cursive;
+font-family: 'Lato', sans-serif;
 font-family: 'Patrick Hand SC', cursive;
-font-family: 'Short Stack', cursive;
-font-family: 'Itim', cursive;
-font-family: 'Caveat Brush', cursive;
-font-family: 'Bad Script', cursive;
-font-family: 'Lato', sans-serif; */
+font-family: 'Bad Script', cursive; */
