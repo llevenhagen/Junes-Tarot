@@ -10,58 +10,7 @@
   --yellow: #eace31;
 }
 
-/* experimental css for main page */
-.main-page-img {
-  width: 20%;
-  height: 33vw;
-  margin: 2vw;
-  border-radius: 10%;
-  border: .5vw solid var(--babypowder);
-  background: black;
-  background-image: url('images/tarot-card-back.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-flex;
-  -webkit-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
-  -moz-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
-  box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
-}
-
-#main-image-text {
-  color: var(--puceblue);
-  font-family: 'Lato', sans-serif;
-  width: 70%;
-  text-align: center;
-  margin: 3vw auto 2vw;
-  background: none;
-  font-size: 1.7vw;
-}
-
-#two-cups:hover {
-  /* background: var(--puceblue); */
-  background-size: contain;
-  repeat: no-repeat;
-  background-image: url('images/two-of-cups.png');
-  transition: .5s ease-in-out;
-}
-
-#hierophant:hover {
-  /* background: var(--puceblue); */
-  background-size: cover;
-  repeat: no-repeat;
-  background-image: url('images/the-hierophant.png');
-  transition: .5s ease-in-out;
-}
-
-#page-cups:hover {
-  background-size: contain;
-  repeat: no-repeat;
-  background-image: url('images/page-of-cups.png');
-  /* background: var(--puceblue); */
-  transition: .5s ease-in-out;
-}
-
-/* GENERAL */
+/*================================ GENERAL */
 html {
   width: 100vw;
   overflow-x: hidden;
@@ -134,10 +83,12 @@ a {
   background: var(--babypowder);
   z-index: 1;
 }
+
 .contact-div {
   margin: auto;
   width: 85%;
 }
+
 .contact-me-link {
   font-family: 'Bad Script', cursive;
   font-weight: bold;
@@ -160,7 +111,10 @@ a {
   display: inline-flex;
   justify-content: flex-start;
 }
-
+.flex-container-browser {
+  display: inline-flex;
+  justify-content: flex-start;
+}
 .float-right {
   float: right;
 }
@@ -179,7 +133,7 @@ hr {
   clear: both;
 }
 
-/* SOCIAL MEDIA DIV */
+/*============================== SOCIAL MEDIA DIV */
 #social-media {
   display: block;
   background: rgba(0, 0, 0, 0);
@@ -203,7 +157,7 @@ hr {
   border-radius: .5vw;
 }
 
-/* NAV BAR */
+/*================================== NAV BAR */
 #nav-bar {
   width: 100%;
   display: inline-flex;
@@ -227,6 +181,7 @@ hr {
   margin: auto;
   padding: none;
 }
+
 #pr-dropdown, #booking-a, #faq-dropdown {
   font-size: 1.7vw;
 }
@@ -241,9 +196,12 @@ hr {
   width: 100%;
   margin-left: -1.5vw;
   background: var(--babypowder);
+  display: block;
 }
-
-/* DROPDOWN */
+#mobile-header-a, #mobile-header-img {
+  display: none;
+}
+/*================================= DROPDOWN */
 li .dropdown {
   position: absolute;
 }
@@ -284,13 +242,63 @@ li .dropdown {
   transition: .5s ease-in-out;
 }
 
-/* MAIN PAGE  */
+/*================================ MAIN PAGE  */
 #main-body {
   background: rgba(132, 224, 218, 0.2);
   text-align: center;
   width: 100%;
   position: relative;
   max-height: 100vw;
+}
+
+.main-page-img {
+  width: 20%;
+  height: 33vw;
+  margin: 2vw;
+  border-radius: 10%;
+  border: .5vw solid var(--babypowder);
+  background: black;
+  background-image: url('images/tarot-card-back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  -webkit-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
+  -moz-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
+  box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
+}
+
+#main-image-text {
+  color: var(--puceblue);
+  font-family: 'Lato', sans-serif;
+  width: 70%;
+  text-align: center;
+  margin: 3vw auto 2vw;
+  background: none;
+  font-size: 1.7vw;
+}
+
+#two-cups:hover {
+  /* background: var(--puceblue); */
+  background-size: contain;
+  repeat: no-repeat;
+  background-image: url('images/two-of-cups.png');
+  transition: .5s ease-in-out;
+}
+
+#hierophant:hover {
+  /* background: var(--puceblue); */
+  background-size: cover;
+  repeat: no-repeat;
+  background-image: url('images/the-hierophant.png');
+  transition: .5s ease-in-out;
+}
+
+#page-cups:hover {
+  background-size: contain;
+  repeat: no-repeat;
+  background-image: url('images/page-of-cups.png');
+  /* background: var(--puceblue); */
+  transition: .5s ease-in-out;
 }
 
 /* #main-image-text {
@@ -304,27 +312,31 @@ li .dropdown {
   background: none;
   font-size: 2vw;
 } */
-#main-page-image {
+/* #main-page-image {
   background: rgba(132, 224, 218, 0.2);
   width: 65%;
   margin: 5vw auto;
   border-radius: 1vw;
-}
+} */
 
-/* PRIVATE READINGS PAGE */
+/*========================== PRIVATE READINGS PAGE */
 .pink-div {
   background: rgb(246, 225, 237);
 }
+
 .yellow-div {
   background: rgb(250, 237, 187);
 }
+
 .pink-div, .blue-div, .yellow-div {
   padding: 2vw;
   border-radius: 3vw;
 }
+
 .blue-div {
   background: rgba(132, 224, 218, 0.2);
 }
+
 #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
   border-radius: 7vw;
   padding: 2vw 3vw 3vw;
@@ -336,10 +348,13 @@ li .dropdown {
 .blue-div {
   background: rgba(132, 224, 218, 0.2);
 }
+
 #private-readings-section-img {
   margin: -25vw 1vw 5vw auto;
 }
-
+#private-readings-p-mobile {
+display: none;
+}
 #live-oremail-psection {
   width: 75%;
   clear: both;
@@ -350,6 +365,9 @@ li .dropdown {
   margin: -28.5vw 3.5vw 5vw 1vw;
   z-index: 15;
   /* max-height: 24vw; */
+}
+#email-reading-last-p-mobile {
+  display: none;
 }
 #rates-section-img {
   margin: 5vw auto 5vw 10vw;
@@ -369,11 +387,12 @@ li .dropdown {
 .table-left {
   width: 35vw;
 }
+
 .table-right {
   width: 10vw;
 }
 
-/* BOOKING PAGE */
+/*================================ BOOKING PAGE */
 form {
   width: 60%;
   margin: auto auto 5vw;
@@ -397,15 +416,17 @@ button {
   border-radius: 50%;
 }
 
-/* FAQ PAGE */
+/*=============================== FAQ PAGE */
 #payment {
   background: var(--babypowder);
 }
+
 #payment-section-img {
   max-width: 25vw;
   max-height: 25vw;
   margin: -25vw 2vw 5vw auto;
 }
+
 #payment-list {
   color: var(--golden);
   width: 55%;
@@ -413,6 +434,7 @@ button {
   margin-bottom: 2.2vw;
   line-height: 150%;
 }
+
 .negative-margin-bottom h3 {
   margin-bottom: -10vw;
 }
@@ -433,15 +455,19 @@ button {
   max-height: 37vw;
   margin: 5vw;
 } */
-#reschedule-images {
+.reschedule-images {
   width: 100;
   display: inline-block;
 }
-#reschedule-images img {
+
+.reschedule-images img {
   width: 20vw;
   height: 20vw;
   display: inline-block;
   margin: .5vw
+}
+#six-wands-mobile {
+  display: none;
 }
 #walkin-section-img {
   margin: 5vw 5vw 5vw 7vw;
@@ -455,13 +481,21 @@ button {
 #walk-in-table-right {
   margin: auto 3vw auto 3vw;
 }
-
+#rates-email-header{
+  margin-left: 14vw;
+}
+#rates-phone-header {
+  margin-left: 10vw;
+}
+#rates-inperson-header {
+  margin-left: 16vw;
+}
 #rights-reserved {
   font-size: 1.3vw;
   margin-top: 3vw;
 }
 
-/* FOOTER */
+/*============================== FOOTER */
 footer {
   background: black;
   width: 100%;
@@ -481,152 +515,395 @@ footer p {
   width: 100vw;
 }
 
-/* MOBILE RESIZING */
+/* ========================== MOBILE RESIZING */
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
 
-@media
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
-  /* GENERAL */
-* {
-  font-size: 1.9vw;
-}
-h2 {
-  font-size: 2.5vw;
-}
+  /* ================= IPAD GENERAL */
+  * {
+    font-size: 1.9vw;
+  }
 
-h3 {
-  color: var(--lightblue);
-  font-size: 2.2vw;
-}
-#nav-bar a {
-  font-size: 3vw;
-}
-#social-media {
-  display: inline-flex;
-  background: var(--lightblue);
-  height: 10vw;
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
-  position: relative;
-  padding: 0;
-  border-radius: .5vw;
-  justify-content: center;
-  vertical-align: middle;
-}
+  h2 {
+    font-size: 2.5vw;
+  }
 
-#social-media img {
-  vertical-align: middle;
-  width: 8vw;
-  margin: auto;
-  margin: 1vw;
-  margin-bottom: 0vw;
-  background: var(--lightblue);
-  /* border-radius: .5vw; */
-}
-.contact-me-link {
-  font-size: 3vw;
-}
-.contact-div {
-  margin: 4vw auto;
-}
+  h3 {
+    color: var(--lightblue);
+    font-size: 2.2vw;
+  }
 
-footer {
-  margin-top: 0
-  bottom: 0;
-  height: 5vw;
+  #nav-bar a {
+    font-size: 3vw;
+  }
+
+  #social-media {
+    display: inline-flex;
+    background: var(--lightblue);
+    height: 10vw;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    padding: 0;
+    border-radius: .5vw;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  #social-media img {
+    vertical-align: middle;
+    width: 8vw;
+    margin: auto;
+    margin: 1vw;
+    margin-bottom: 0vw;
+    background: var(--lightblue);
+    /* border-radius: .5vw; */
+  }
+
+  .contact-me-link {
+    font-size: 3vw;
+  }
+
+  .contact-div {
+    margin: 4vw auto;
+  }
+
+  footer {
+    margin-top: 0 bottom: 0;
+    height: 5vw;
+  }
+
+  footer p {
+    font-size: 2vw;
+    width: 80%;
+  }
+
+  /* ========================== IPAD MAIN PAGE */
+  #main-body {
+    max-height: 50vw;
+  }
+
+  #overflow-div {
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  #main-image-text {
+    font-size: 3vw;
+    margin-top: 8vw;
+  }
+
+  #two-cups {
+    margin-top: 9vw;
+    margin-bottom: 25.3vw;
+  }
+
+  /* ==================== IPAD PRIVATE READINGS PAGE */
+  #private-readings-section-img {
+    width: 19vw;
+    height: 19vw;
+    margin: -25vw -.5vw 5vw 0;
+  }
+
+  #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
+    border-radius: 7vw;
+    padding: 2vw 3vw 3vw;
+    width: 98%;
+    margin: auto;
+    background: var(--babypowder);
+  }
+
+  #rates-section-img {
+    margin: 10vw auto 5vw 10vw;
+  }
+
+  /*======================= IPAD BOOKING PAGE */
+  #booking-img {
+    width: 30%;
+    margin: 5vw 35% 0vw;
+  }
+
+  form {
+    margin-top: 7vw;
+    width: 80%;
+  }
+
+  .form-row {
+    margin-bottom: 3vw;
+  }
+
+  button {
+    margin-bottom: 6vw;
+  }
+
+  /* =========================   IPAD FAQ PAGE  */
+  #payment {
+    height: 50vw;
+  }
+
+  #payment-list {
+    font-size: 2vw;
+  }
+
+  #payment-section-img {
+    margin: -20vw 2vw 5vw auto;
+  }
+
+  .reschedule-images {
+    width: 100%;
+    display: inline-block;
+    margin-top: 5vw;
+  }
+
+  .reschedule-images img {
+    width: 22vw;
+    height: 22vw;
+    display: inline-block;
+    margin: 4vw 1vw;
+  }
+
+  #walkin-section-img {
+    /* max-width: 28vw;
+  max-height: 28vw; */
+  }
+
+  #walk-in-table-left {
+    width: 20vw;
+    margin-left: 4vw;
+  }
+
+  #walk-in-table-right {
+    margin: auto 3vw auto 3vw;
+  }
+
+  #rights-reserved {
+    font-size: 1.7vw;
+  }
 }
-footer p {
-  font-size: 2vw;
-  width: 80%;
+/* ==================== MOBILE PHONE SCREENS */
+@media only screen and (max-width: 600px), (max-device-width: 600px) {
+  /* ======================= PHONE SCREEN GENERAL */
+  * {
+    font-size: 3vw;
+  }
+
+  h2 {
+    font-size: 3.5vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+  #header-img {
+    display: none;
+    /* position: absolute; */
+  }
+  #mobile-header-a, #mobile-header-img {
+    display: block;
+  }
+  #mobile-header-img {
+    display: block;
+    /* margin-left: -1.5vw; */
+    width: 100%;
+    background: var(--babypowder);
+    position: static;
+  }
+  #nav-bar {
+    padding-bottom: 4vw;
+  }
+  #nav-bar a {
+    font-size: 4vw;
+  }
+
+  #social-media {
+    height: 15vw;
+  }
+
+  #social-media img {
+    vertical-align: middle;
+    width: 12vw;
+    margin: 1vw 7vw;
+    margin-bottom: 0vw;
+    background: var(--lightblue);
+    /* border-radius: .5vw; */
+  }
+
+  .contact-me-link {
+    font-size: 5vw;
+  }
+
+  .contact-div {
+    margin: 6vw auto;
+  }
+  .pink-div, .blue-div, .yellow-div {
+    padding: 5vw 2vw;
+    border-radius: 3vw;
+  }
+  footer {
+    margin-top: 0 bottom: 0;
+    height: 10vw;
+  }
+
+  footer p {
+    font-size: 3vw;
+    width: 80%;
+        vertical-align: middle;
+  }
+
+
+  /* ========================= PHONE SCREEN MAIN  */
+.main-page-img {
+  width: 25%;
+  height: 42vw;
 }
- /* MAIN PAGE */
-#main-body {
-max-height: 50vw;
-}
-#overflow-div {
-overflow-y: hidden;
-padding: 0;
-margin: 0;
-}
-#main-image-text {
-  font-size: 3vw;
-  margin-top: 8vw;
-}
-#two-cups {
-  margin-top: 9vw;
-  margin-bottom: 25.3vw;
-}
-/* PRIVATE READINGS PAGE */
-#private-readings-section-img {
-  width: 19vw;
-  height: 19vw;
-  margin: -25vw -.5vw 5vw 0;
-}
-#private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
-  border-radius: 7vw;
-  padding: 2vw 3vw 3vw;
-  width: 98%;
-  margin: auto;
-  background: var(--babypowder);
-}
-#rates-section-img {
-  margin: 10vw auto 5vw 10vw;
-}
-/* BOOKING PAGE */
+  #two-cups {
+    background-image: url('images/two-of-cups.png');
+    margin-top: 12vw;
+    margin-bottom: 23vw;
+  }
+
+  #hierophant {
+    background-image: url('images/the-hierophant.png');
+  }
+
+  #page-cups {
+    background-image: url('images/page-of-cups.png');
+  }
+  #main-image-text {
+    font-size: 4vw;
+    margin-top: 8vw;
+  }
+  /* =============== PHONE SCREEN PRIVATE READINGS PAGE */
+  #private-readings p, #live-oremail p, #payment p, #policies p, #walk-in-p, #first-n-third-saturdays {
+    margin: 4vw auto;
+  }
+  #private-readings-p-browser {
+  display: none;
+  }
+  #private-readings-p-mobile {
+  display: block;
+  }
+  #private-readings-section-img {
+    width: 22vw;
+    height: 22vw;
+    margin: -80vw 1vw 5vw 0;
+  }
+/* ======================== PHONE SCREEN BOOKING PAGE */
 #booking-img {
-width: 30%;
-margin: 5vw 35% 0vw;
+  width: 30%;
+  margin: 7vw 35% 0vw;
 }
+
 form {
   margin-top: 7vw;
-  width: 80%;
-}
+  width: 85%;
 
-.form-row {
-  margin-bottom: 3vw;
 }
-
 button {
-  margin-bottom: 6vw;
+  width: 30%;
+  margin: auto 35%;
+  margin-top: 5vw;
+  margin-bottom: 11vw;
 }
-/* FAQ PAGE */
+#live-or-email-img {
+  margin: -37vw 3.5vw 5vw -1vw;
+  max-height: 30vw;
+}
+#email-reading-last-p-browser {
+  display: none;
+}
+#email-reading-last-p-mobile {
+  display: block;
+  margin-left: -10vw;
+}
+#rates-section-img {
+display: none;
+}
+#rates-table {
+  width: 100%;
+}
+.table-left {
+  width: 55vw;
+  margin-left: 7vw;
+}
+.table-right {
+  width: 50vw;
+}
+#rates-email-header{
+  margin-left: 31.5vw;
+}
+#rates-phone-header {
+  margin-left: 22vw;
+}
+#rates-inperson-header {
+  margin-left: 35vw;
+}
+/* FAQ SECTION  */
 #payment {
-  height: 50vw;
-}
-#payment-list {
-font-size: 2vw;
+  height: 80vw;
 }
 #payment-section-img {
-  margin: -20vw 2vw 5vw auto;
+  margin: -27vw 2vw 5vw auto;
 }
-#reschedule-images {
-  width: 100%;
-  display: inline-block;
-  margin-top: 5vw;
+#payment-list {
+  font-size: 3vw;
 }
-#reschedule-images img {
-  width: 22vw;
-  height: 22vw;
-  display: inline-block;
-  margin: 4vw 1vw;
+.flex-container-browser {
+  display: block;
+}
+/* #policies p {
+  text-align: center;
+} */
+.vl {
+  display: none;
+}
+.browser-only {
+  display: none;
+}
+.reschedule-images {
+  margin-left: 30vw;
+  margin-top: 0vw;
+  margin-bottom: 4vw;
+}
+.reschedule-images img {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+}
+.reschedule-images #strength-card-browser, .reschedule-images #keyboard-card-browser, .reschedule-images #six-wands-browser {
+  display: none;
+}
+#six-wands-mobile {
+  display: block;
+}
+#walk-in-p {
+  text-align: left;
 }
 #walkin-section-img {
-  /* max-width: 28vw;
-  max-height: 28vw; */
+    margin: 18vw 0vw 5vw -15vw;
+    /* border-radius: 50%; */
+}
+#walk-in-h3 {
+  padding-top: 5vw;
+  width: 60vw;
+  margin-left: -1vw;
 }
 #walk-in-table-left {
-  width: 20vw;
+  width: 30vw;
   margin-left: 4vw;
 }
 
 #walk-in-table-right {
   margin: auto 3vw auto 3vw;
 }
+
 #rights-reserved {
-  font-size: 1.7vw;
+  font-size: 2.5vw;
 }
 }
+
 /*
 font-family: 'Aladin', cursive;
 font-family: 'Redressed', cursive;

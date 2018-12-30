@@ -16,6 +16,7 @@
   <!-- <a href="/Junes-Tarot2/"><img id="header-img" src="../assets/css/images/june-header-blue-aladin.png" /></a> -->
   <div id="overflow-div">
   <a href="/Junes-Tarot2/"><img id="header-img" src="../assets/css/images/june-header-blue-aladin.png"/></a>
+<a id="mobile-header-a" href="/Junes-Tarot2/"><img id="mobile-header-img" src="../assets/css/images/june-header-phone.png"/></a>
 <nav>
   <ul id="nav-bar">
     <li class="dropdown"><a id="pr-dropdown" href="/Junes-Tarot2/private-readings/">Private Readings</a>
@@ -54,17 +55,18 @@
       <h2>RESCHEDULING, CANCELLATIONS, AND REFUNDS</h2>
       <p class="textalign-center">I totally get it: emergencies and changes in circumstances (and your mind) happen... Hopefully, by having these laid out before you pay prepares you in case you do need to reschedule or cancel! </p>
       <p class="textalign-center">If you have any questions or do need to change/cancel your reading, please send me an email.</p>
-      <div class="flex-container">
+      <div class="flex-container-browser">
         <div>
           <h3 class="negative-margin-bottom textalign-center">Re-scheduling your appointment :</h3>
           <p>If you need to re-schedule your live reading, please let me know at least 24 hours in advance. You will have priority when re-scheduling for up to two weeks.</p>
-          <p>To re-schedule, <br>
+          <p class="browser-only">To re-schedule, <br>
             please email me at tarot@jlowatari.com.</p>
-          <div id="reschedule-images">
-            <img class="textalign-center faq-page-img" src="../assets/css/images/ace-of-pentacles.png" alt="ace of pentacles" />
-            <img class="textalign-center faq-page-img" src="../assets/css/images/six-of-wands.png" alt="six of wands tarot card" />
-            <img class="textalign-center faq-page-img" src="../assets/css/images/tarot-keyboard.png" alt="tarot card" />
-            <img class="textalign-center faq-page-img" src="../assets/css/images/strength.png" alt="strength tarot card" />
+            <p class="mobile-only">To re-schedule, please email me at tarot@jlowatari.com.</p>
+          <div class="reschedule-images">
+            <img id="ace-pentacles" class="textalign-center faq-page-img" src="../assets/css/images/ace-of-pentacles.png" alt="ace of pentacles" />
+            <img id="six-wands-browser" class="textalign-center faq-page-img" src="../assets/css/images/six-of-wands.png" alt="six of wands tarot card" />
+            <img id="keyboard-card-browser" class="textalign-center faq-page-img" src="../assets/css/images/tarot-keyboard.png" alt="tarot card" />
+            <img id="strength-card-browser" class="textalign-center faq-page-img" src="../assets/css/images/strength.png" alt="strength tarot card" />
           </div>
         </div>
         <div class="vl"></div>
@@ -76,6 +78,9 @@
           </p>
           <p>Refunds are subject to fees--for now this only applies to PayPal (but is subject to change) as each transaction sent to me via Paypal gets 2.9% + 30 cents taken out.</p>
           <p>To cancel, please email me at tarot@jlowatari.com.</p>
+          <div class="reschedule-images">
+        <img id="six-wands-mobile" class="textalign-center faq-page-img" src="../assets/css/images/six-of-wands.png" alt="six of wands tarot card" />
+        </div>
           <h3 class="negative-margin-bottom textalign-center">Refund Policy :</h3>
           <p class="marginleft"><span class="bold">Live Readings :</span><br>Unfortunately I cannot offer refunds for same-day 24 hours) cancellations or no-shows for live readings.
           </p>
@@ -90,14 +95,12 @@
     <div id="walkinhours">
       <h2>WALK-IN HOURS / LIBRARY</h2>
       <p id="walk-in-p" class="textalign-center">Come visit me! Not only do I have a tiny (but growing!) zine/book library (mostly) by POC authors and
-        focused on magic/witchy/Tarot+ topics, but my walk-in hours allow me to see people who may not be able
-        to afford longer/more expensive readings. These shorter walk-in readings are great for those looking to check
-        in with themselves or for short-term/temporary issues.</p>
+      focused on magic/ witchy/ Tarot+ topics, but my walk-in hours allow me to see people who may not be able to afford longer/more expensive readings. These shorter walk-in readings are great for those looking to check in with themselves or for short-term/temporary issues.</p>
       <div class="flex-container">
         <div>
           <p><span class="underline bold">Mondays:</span> coming soon in North Park / Normal Heights!</p>
           <p id="first-n-third-saturdays"><span class="underline bold">1st & 3rd Saturdays:</span> 5pm-close at <a href="https://www.facebook.com/pages/category/Product-Service/Brujitxs-del-Barrio-441793262900664/">Brujitxs del Barrio</a> <br>- (Upcoming dates: Oct. 6 & Oct. 20)</p>
-          <h3 class="textalign-center">Walk-in / Studio Sliding Scale Rates</h3>
+          <h3 id="walk-in-h3" class="textalign-center">Walk-in / Studio Sliding Scale Rates</h3>
           <div class="flex-container">
             <div id="walk-in-table-left">
               <p>10 minutes :</p>

@@ -16,6 +16,7 @@
   <!-- <a href="/Junes-Tarot2/"><img id="header-img" src="../assets/css/images/june-header-blue-aladin.png" /></a> -->
   <div id="overflow-div">
   <a href="/Junes-Tarot2/"><img id="header-img" src="../assets/css/images/june-header-blue-aladin.png"/></a>
+<a id="mobile-header-a" href="/Junes-Tarot2/"><img id="mobile-header-img" src="../assets/css/images/june-header-phone.png"/></a>
 <nav>
   <ul id="nav-bar">
     <li class="dropdown"><a id="pr-dropdown" href="/Junes-Tarot2/private-readings/">Private Readings</a>
@@ -39,6 +40,7 @@
   <div class="pink-div">
     <div id="private-readings">
       <h2>PRIVATE READINGS</h2>
+      <div id="private-readings-p-browser">
       <p>Book a private 30 or 60 minute reading or a typed up/emailed reading! Private readings are great for those looking at long-term/deep issues or need guidance on parts of your life that may seem overwhelming or stagnant.</p>
       <p>Expected turnaround times for emailed readings is
         3-7 days after payment receipt.</p>
@@ -47,6 +49,17 @@
       <p>Regardless of which style of reading you choose, you'll receive a photo and/or list <br>of cards and spread positions, and my undivided attention for our allotted time. <br>If time allows and/or it makes sense for the reading, I may pull
         one
         card <br>from an oracle deck.</p>
+        </div>
+        <div id="private-readings-p-mobile">
+          <p>Book a private 30 or 60 minute reading or a <br> typed up/emailed reading! Private readings are <br> great for those looking at long-term/deep issues <br>or need guidance on parts of your life that may <br>seem overwhelming or stagnant.</p>
+          <p>Expected turnaround times for emailed readings is
+            3-7 days after payment receipt.</p>
+          <p>Live readings are available in person (San Diego county area
+            only) or via video chat, voice chat, or phone. Appointments are available up to 1 month in advance. Appointments are confirmed and in my calendar once I receive payment.</p>
+          <p>Regardless of which style of reading you choose, you'll receive a photo and/or list of cards and spread positions, and my undivided attention for our allotted time. If time allows and/or it makes sense for the reading, I may pull
+            one
+            card from an oracle deck.</p>
+        </div>
       <img id="private-readings-section-img" class=" float-right pr-page-img" src="../assets/css/images/tarot-withcandle.png" alt="tarot cards with candle" />
     </div>
   </div>
@@ -59,10 +72,12 @@
           cards.
         </p>
         <p><span class="bold">Live readings</span> (in person, voice or video chat) allow for us to ask each other questions in real time for clarification. </p>
-        <p><span class="bold">Emailed readings</span> don't have that easy back-and-forth, but are perfect for the introvert or for those whose scheduling does not allow for live readings. You won't have to frantically scribble notes like you might
+        <p id="email-reading-last-p-browser"><span class="bold">Emailed readings</span> don't have that easy back-and-forth, but are perfect for the introvert or for those whose scheduling does not allow for live readings. You won't have to frantically scribble notes like you might
           during a live reading, and you'll be able to refer back to my text again and again.</p>
       </div>
       <img id="live-or-email-img" class=" float-left pr-page-img" src="../assets/css/images/four-tarot-cards.png" alt="four tarot cards" />
+      <p id="email-reading-last-p-mobile"><span class="bold">Emailed readings</span> don't have that easy back-and-forth, but are perfect for the introvert or for those whose scheduling does not allow for live readings. You won't have to frantically scribble notes like you might
+        during a live reading, and you'll be able to refer back to my text again and again.</p>
     </div>
   </div>
   <hr class="grey-hr">
@@ -71,12 +86,12 @@
       <h2>RATES</h2>
       <div class="flex-container">
         <div id="rates-table">
-          <p style="margin-left: 14vw;" class="bold text-decoration">Email Readings</p>
+          <p id="rates-email-header" class="bold text-decoration">Email Readings</p>
           <div class="flex-container">
             <div class="table-left">
               <p>3 cards</p>
               <p>5 cards</p>
-              <p>Celtic Cross / Year Ahead Spread (10 cards)</p>
+              <p>Celtic Cross / Year Ahead Spread<br> (10 cards)</p>
             </div>
             <div class="table-right">
               <p>$45 - 70</p>
@@ -84,7 +99,7 @@
               <p>$115 - 175</p>
             </div>
           </div>
-          <p style="margin-left: 10vw;" class="bold text-decoration">Phone, chat, voice, or video chat</p>
+          <p id="rates-phone-header" class="bold text-decoration">Phone, chat, voice, or video chat</p>
           <div class="flex-container">
             <div class="table-left">
               <p>30 minutes</p>
@@ -95,7 +110,7 @@
               <p>$ 60 - 85</p>
             </div>
           </div>
-          <p style="margin-left: 16vw;" class="bold text-decoration">In-person</p>
+          <p id="rates-inperson-header" class="bold text-decoration">In-person</p>
           <div class="flex-container">
             <div class="table-left">
               <p>30 minutes</p>
