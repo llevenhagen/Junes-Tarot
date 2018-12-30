@@ -563,7 +563,7 @@ margin: 0;
 #private-readings-section-img {
   width: 19vw;
   height: 19vw;
-  margin: -25vw -.7vw 5vw auto;
+  margin: -25vw -.5vw 5vw auto;
 }
 #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
   border-radius: 7vw;
