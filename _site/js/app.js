@@ -3,7 +3,7 @@
 
 // ============ INSTAFEED JAVASCRIPT ============
 $(document).ready(function() {
-
+console.log(hello);
   var feed = new Instafeed({
     get: 'user',
     userId: '327369499',
