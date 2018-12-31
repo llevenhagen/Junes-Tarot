@@ -593,8 +593,8 @@ button {
   /* ================= IPAD GENERAL */
   * {
     font-size: 1.9vw;
+    margin: auto;
   }
-
   h2 {
     font-size: 2.5vw;
   }
@@ -779,6 +779,7 @@ button {
   /* ======================= PHONE SCREEN GENERAL */
   * {
     font-size: 3vw;
+    margin: auto;
   }
 
   #overflow-div {
