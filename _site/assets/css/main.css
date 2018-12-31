@@ -8,39 +8,47 @@
   --babypowder: #FEFEFA;
   --babyblue: #85e1db;
   --yellow: #eace31;
-  --almostblack: rgb(51,51,51);
+  --almostblack: rgb(51, 51, 51);
 }
+
 @font-face {
-font-family: 'JostBook';
-src: url('fonts/Jost-400-Book.otf');
+  font-family: 'JostBook';
+  src: url('fonts/Jost-400-Book.otf');
 }
+
 @font-face {
-font-family: 'JostSemi';
-src: url('fonts/Jost-600-Semi.otf');
+  font-family: 'JostSemi';
+  src: url('fonts/Jost-600-Semi.otf');
 }
+
 @font-face {
-font-family: 'JostBold';
-src: url('fonts/Jost-700-Bold.otf');
+  font-family: 'JostBold';
+  src: url('fonts/Jost-700-Bold.otf');
 }
+
 @font-face {
-font-family: 'JostBoldItalic';
-src: url('fonts/Jost-700-BoldItalic.otf');
+  font-family: 'JostBoldItalic';
+  src: url('fonts/Jost-700-BoldItalic.otf');
 }
+
 @font-face {
-font-family: 'JostHeavy';
-src: url('fonts/Jost-800-Heavy.otf');
+  font-family: 'JostHeavy';
+  src: url('fonts/Jost-800-Heavy.otf');
 }
+
 @font-face {
-font-family: 'JostHeavyItalic';
-src: url('fonts/Jost-800-HeavyItalic.otf');
+  font-family: 'JostHeavyItalic';
+  src: url('fonts/Jost-800-HeavyItalic.otf');
 }
+
 @font-face {
-font-family: 'JostBlack';
-src: url('fonts/Jost-900-Black.otf');
+  font-family: 'JostBlack';
+  src: url('fonts/Jost-900-Black.otf');
 }
+
 @font-face {
-font-family: 'JostBlackItalic';
-src: url('fonts/Jost-900-BlackItalic.otf');
+  font-family: 'JostBlackItalic';
+  src: url('fonts/Jost-900-BlackItalic.otf');
 }
 
 /*================================ GENERAL */
@@ -62,15 +70,16 @@ body {
   font-size: 1.5vw;
   margin-left: -.4vw;
 }
-  #overflow-div {
-    /* min-height: calc(100vh); */
-    overflow: hidden;
-    margin: auto;
-  }
+
+#overflow-div {
+  /* min-height: calc(100vh); */
+  overflow: hidden;
+  margin: auto;
+}
+
 /* div {
   position: relative;
 } */
-
 h2 {
   position: relative;
   margin-top: 2vw;
@@ -87,7 +96,7 @@ h2 {
 h3 {
   color: var(--lightblue);
   font-size: 1.7vw;
-    font-family: JostSemi, serif;
+  font-family: JostSemi, serif;
 }
 
 h4 {
@@ -166,9 +175,10 @@ a {
 hr {
   clear: both;
 }
+
 /*============================== FOOTER */
 footer {
-  background:var(--almostblack);
+  background: var(--almostblack);
   width: 100%;
   margin-top: 3vw;
   margin-left: 0;
@@ -254,6 +264,7 @@ footer p {
   height: 17.6vw;
   text-align: center;
 }
+
 #header-h1 {
   color: var(--lightblue);
   font-size: 9vw;
@@ -262,19 +273,23 @@ footer p {
   margin-bottom: 0;
   letter-spacing: .2vw;
 }
+
 #header-p {
   margin-top: -3vw;
   font-family: JostSemi, serif;
   font-size: 1.6vw;
 }
+
 #header-a:hover {
-text-decoration: none;
+  text-decoration: none;
 }
+
 #wtf {
   font-family: JostBoldItalic, serif;
   font-style: italic;
   font-size: 2vw;
 }
+
 #mobile-nav {
   display: none;
 }
@@ -307,10 +322,10 @@ li .dropdown {
   line-height: 150%;
   font-size: 1.5vw;
 }
+
 /* .dropdown-content a:hover {
   background: var(--babypowder);
 } */
-
 .dropdown:hover .dropdown-content {
   margin-top: .6vw;
   max-height: 30vw;
@@ -595,6 +610,7 @@ button {
     font-size: 1.9vw;
     margin: auto;
   }
+
   h2 {
     font-size: 2.5vw;
   }
@@ -603,20 +619,24 @@ button {
     color: var(--lightblue);
     font-size: 2.2vw;
   }
+
   .nav-bar {
     padding-bottom: 2vw;
   }
-  #booking-a, #pr-dropdown, #faq-dropdown{
+
+  #booking-a, #pr-dropdown, #faq-dropdown {
     font-size: 3vw;
   }
 
   #header-p {
     font-size: 2vw;
-        margin-top: 0;
+    margin-top: 0;
   }
+
   #wtf {
     font-size: 2.2vw;
   }
+
   #social-media {
     display: inline-flex;
     background: var(--lightblue);
@@ -655,7 +675,6 @@ button {
     /* bottom: 0; */
     height: 1vw;
     background: none;
-
   }
 
   footer p {
@@ -787,23 +806,28 @@ button {
     overflow-x: hidden;
     position: relative;
   }
+
   #header-img-div {
     background-size: contain;
     background-repeat: repeat;
     height: 25vw;
   }
+
   #header-h1 {
     font-size: 13vw;
     padding-top: 3vw;
   }
+
   #header-p {
     font-size: 2.8vw;
   }
+
   #wtf {
     font-weight: 900;
     font-style: italic;
     font-size: 3.5vw;
   }
+
   h2 {
     font-size: 3.5vw;
   }
@@ -811,7 +835,6 @@ button {
   h3 {
     font-size: 4vw;
   }
-
 
   .nav-bar {
     padding-bottom: 4vw;
@@ -1054,7 +1077,7 @@ button {
     height: 18vw;
     /* background: var(--puceblue); */
     border-top: .5vw solid black;
-      background: rgb(51,51,51);
+    background: rgb(51, 51, 51);
     /* background: var(--red); */
     overflow-x: hidden;
   }
@@ -1089,18 +1112,22 @@ button {
     margin: auto;
     width: 100%;
   }
+
   #mobile-nav .nav-bar #home-icon-li {
-  border: none;
+    border: none;
   }
-#mobile-nav .nav-bar #mobile-nav-faq a {
-  font-size: 9vw;
-}
+
+  #mobile-nav .nav-bar #mobile-nav-faq a {
+    font-size: 9vw;
+  }
+
   #home-icon {
     width: 9vw;
     border: none;
     padding: 0vw;
   }
 }
+
 /*
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'PT Sans', sans-serif;
