@@ -196,7 +196,7 @@ footer p {
   width: 4.5vw;
   right: 0;
   top: 0;
-  margin-top: 30vw;
+  margin-top: 25vw;
   position: fixed;
   padding-top: 2vw;
   padding-bottom: 2vw;
@@ -207,7 +207,7 @@ footer p {
 #social-media img {
   width: 4vw;
   display: block;
-  margin: 1.5vw auto;
+  margin: 0;
   background: var(--puceblue);
   border-radius: .5vw;
 }
