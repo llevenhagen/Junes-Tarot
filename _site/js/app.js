@@ -14,8 +14,8 @@ $(document).ready(function() {
     type: 'image',
     limit: 12,
     sortBy: 'most-recent',
-    resolution: 'low_resolution',
-    useHttp: true,
+    resolution: 'standard_resolution',
+    // useHttp: true,
     // first try client id:
     // clientId: '45456d4d07ef4cd9b7a8749b370107c2',
     // junes tarot online deployment client id:
