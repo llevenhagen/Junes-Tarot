@@ -6,15 +6,16 @@
 $(document).ready(function(){
 
 
-    $('html, body').animate({
-      scrollTop: $(window.location.hash).offset().top
-    }, 'slow');
+    // $('html, body').animate({
+    //   scrollTop: $(window.location.hash).offset().top
+    // }, 'slow');
 
 // ============ INSTAFEED JAVASCRIPT ============
 var feed = new Instafeed({
   get: 'user',
   userId: '327369499',
-  accessToken: '327369499.1677ed0.5eb29ae0a4554560952d1ce4b43b553c',
+  accessToken: '327369499.45456d4.8257602705464a11bd104aad06022598',
+  type: 'image',
   get: 'tagged',
   tagName: 'awesome',
   limit: 12,
