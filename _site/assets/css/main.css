@@ -339,6 +339,28 @@ li .dropdown {
 }
 
 /*================================ MAIN PAGE  */
+.container {
+  margin-top: 5vw;
+  width: 80%;
+  height: auto;
+}
+
+.instaimg img {
+  margin-bottom: 3vw;
+  width: 90%;
+  height: auto;
+  -webkit-box-shadow: 4px 0px 12px -4px var(--greyline);
+  -moz-box-shadow: 4px 0px 12px -4px var(--greyline);
+  box-shadow: 4px 0px 12px -4px var(--greyline);
+  border-radius: .3vw;
+}
+
+.instaimg img:hover {
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  -webkit-opacity: 0.8;
+}
+
 #main-body {
   background: rgba(132, 224, 218, 0.2);
   text-align: center;
@@ -347,7 +369,7 @@ li .dropdown {
   max-height: 100vw;
 }
 
-.main-page-img {
+/* .main-page-img {
   width: 20%;
   height: 33vw;
   margin: 2vw;
@@ -361,8 +383,7 @@ li .dropdown {
   -webkit-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
   -moz-box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
   box-shadow: 0px 3px 64px -13px rgb(61, 90, 108, .75);
-}
-
+} */
 #main-image-text {
   color: var(--puceblue);
   font-family: JostSemi, serif;
@@ -690,6 +711,26 @@ button {
   }
 
   /* ========================== IPAD MAIN PAGE */
+  .container {
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 5vw;
+  }
+
+  .instaimg {
+    width: 30%;
+  }
+
+  .instaimg img {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 4px 0px 12px -4px var(--greyline);
+    -moz-box-shadow: 4px 0px 12px -4px var(--greyline);
+    box-shadow: 4px 0px 12px -4px var(--greyline);
+    border-radius: .3vw;
+  }
+
   #main-body {
     max-height: 50vw;
   }
@@ -703,6 +744,7 @@ button {
   #main-image-text {
     font-size: 3vw;
     margin-top: 8vw;
+    width: 95%;
   }
 
   #two-cups {
@@ -819,7 +861,7 @@ button {
   }
 
   #header-p {
-    font-size: 2.8vw;
+    font-size: 3vw;
   }
 
   #wtf {
@@ -834,14 +876,6 @@ button {
 
   h3 {
     font-size: 4vw;
-  }
-
-  .nav-bar {
-    padding-bottom: 4vw;
-  }
-
-  .nav-bar a {
-    font-size: 3.7vw;
   }
 
   #social-media {
@@ -886,6 +920,27 @@ button {
   }
 
   /* ========================= PHONE SCREEN MAIN  */
+  .container {
+    margin-bottom: 7vw;
+  }
+
+  .instaimg {
+    width: 33%;
+  }
+
+  .instaimg img {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 4px 0px 12px -4px var(--greyline);
+    -moz-box-shadow: 4px 0px 12px -4px var(--greyline);
+    box-shadow: 4px 0px 12px -4px var(--greyline);
+    border-radius: .3vw;
+  }
+
+  #main-image-text {
+    width: 90%;
+  }
+
   .main-page-img {
     width: 25%;
     height: 42vw;
@@ -1066,65 +1121,51 @@ button {
     font-size: 2.5vw;
   }
 
+  #browser-nav {
+    display: none;
+  }
+
   #mobile-nav {
     display: block;
-    padding-bottom: 10vw;
     position: fixed;
     z-index: 20;
     bottom: 0;
     width: 100%;
     padding: 0;
     height: 18vw;
-    /* background: var(--puceblue); */
-    border-top: .5vw solid black;
-    background: rgb(51, 51, 51);
-    /* background: var(--red); */
-    overflow-x: hidden;
+    background: var(--almostblack);
   }
 
-  #browser-nav {
-    display: none;
-  }
-
-  #mobile-nav .nav-bar {
+  #mobile-nav .mobile-nav-bar {
     display: inline-flex;
     justify-content: space-between;
-    margin-left: -6vw;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
 
-  #mobile-nav .nav-bar li {
-    width: auto;
-    margin: auto 2vw;
-    border-right: .3vw solid var(--babypowder);
+  #mobile-nav .mobile-nav-bar li {
     text-align: center;
-    width: 25%;
-    height: 17vw;
-    padding: 2vw;
+    margin: auto;
   }
 
-  #mobile-nav .nav-bar a {
-    font-size: 5vw;
+  #mobile-nav .mobile-nav-bar a {
+    font-size: 4vw;
     text-align: center;
     color: var(--babypowder);
-    border-radius: .5vw;
-    width: 20vw;
     font-family: JostBoldItalic, serif;
     margin: auto;
     width: 100%;
+    border-bottom: 1vw solid var(--babyblue);
   }
-
-  #mobile-nav .nav-bar #home-icon-li {
-    border: none;
-  }
-
-  #mobile-nav .nav-bar #mobile-nav-faq a {
-    font-size: 9vw;
-  }
-
   #home-icon {
     width: 9vw;
-    border: none;
-    padding: 0vw;
+    height: 9vw;
+    height: 100%;
+    margin-bottom: 6vw;
+    /* border: none; */
+    padding: 5vw auto 5vw;
   }
 }
 
