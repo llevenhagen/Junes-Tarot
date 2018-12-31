@@ -12,7 +12,10 @@ $(document).ready(function() {
     limit: 12,
     sortBy: 'most-recent',
     resolution: 'standard_resolution',
-    clientId: '45456d4d07ef4cd9b7a8749b370107c2',
+    // locally:
+    // clientId: '45456d4d07ef4cd9b7a8749b370107c2',
+    // online deployment:
+    clientId: '81094f69284547778497e07c897440f9',
     template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
   });
   if ($('#instafeed').length){
