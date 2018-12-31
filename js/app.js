@@ -6,9 +6,9 @@
 $(document).ready(function(){
 
 
-    // $('html, body').animate({
-    //   scrollTop: $(window.location.hash).offset().top
-    // }, 'slow');
+    $('html, body').animate({
+      scrollTop: $(window.location.hash).offset().top
+    }, 'slow');
 
 // ============ INSTAFEED JAVASCRIPT ============
 var feed = new Instafeed({
