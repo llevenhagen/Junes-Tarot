@@ -60,10 +60,12 @@ body {
   /* background: var(--babypowder); */
   font-family: JostBook, sans-serif;
   font-size: 1.5vw;
+  margin-left: -.4vw;
 }
   #overflow-div {
     /* min-height: calc(100vh); */
     overflow: hidden;
+    margin: auto;
   }
 /* div {
   position: relative;
@@ -261,6 +263,7 @@ footer p {
   letter-spacing: .2vw;
 }
 #header-p {
+  margin-top: -3vw;
   font-family: JostSemi, serif;
   font-size: 1.6vw;
 }
