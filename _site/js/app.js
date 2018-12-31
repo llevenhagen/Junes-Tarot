@@ -26,14 +26,14 @@ console.log('hello');
   feed.run();
 }
 // =========== MAGNIFIC CODE FOR POP UP MODAL ON CLICK - NOT WORKING YET===
-// $('.gallery').magnificPopup({
-//       type: 'image',
-//       // the next line tells it to target the anchor tag for what to display
-//       delegate: 'a',
-//       gallery: {
-//           enabled: true
-//       }
-//   });
+$('.gallery').magnificPopup({
+      type: 'image',
+      // the next line tells it to target the anchor tag for what to display
+      delegate: 'a',
+      gallery: {
+          enabled: true
+      }
+  });
   // ==============SMOOTH SCROLL ===================
   // THE FOLLOWING CODE WAS TAKEN FROM https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
   $("a").on('click', function(event) {

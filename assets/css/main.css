@@ -140,8 +140,12 @@ a {
   text-align: center;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
 .bold {
-  font-weight: bold;
+  font-family: JostBold;
 }
 
 .text-decoration {
@@ -269,13 +273,13 @@ footer p {
   color: var(--lightblue);
   font-size: 9vw;
   font-family: 'Aladin', cursive;
-  padding-top: 1.5vw;
+  padding-top: 0vw;
   margin-bottom: 0;
   letter-spacing: .2vw;
 }
 
 #header-p {
-  margin-top: -3vw;
+  margin-top: -2.2vw;
   font-family: JostSemi, serif;
   font-size: 1.6vw;
 }
@@ -466,7 +470,7 @@ li .dropdown {
 }
 
 #private-readings-section-img {
-  margin: -25vw 1vw 5vw auto;
+  margin: -23vw 1vw 5vw auto;
 }
 
 #private-readings-p-mobile {
@@ -480,9 +484,9 @@ li .dropdown {
 }
 
 #live-or-email-img {
-  margin: -28.5vw 3.5vw 5vw 1vw;
+  margin: -26.5vw 3.5vw 5vw 0vw;
   z-index: 15;
-  /* max-height: 24vw; */
+  max-height: 24vw;
 }
 
 #email-reading-last-p-mobile {
@@ -490,7 +494,8 @@ li .dropdown {
 }
 
 #rates-section-img {
-  margin: 5vw auto 5vw 10vw;
+  margin: 5vw auto 5vw 4vw;
+  border-radius: 50%;
 }
 
 #private-readings p, #live-oremail p, #payment p, #policies p, #walk-in-p, #first-n-third-saturdays {
@@ -499,17 +504,41 @@ li .dropdown {
 }
 
 #rates-table {
-  margin-left: 2vw;
-  margin-bottom: 5vw;
-  /* width: 20vw; */
+  margin-left: 0vw;
+  margin-top: 3vw;
+  margin-bottom: 4vw;
+  -webkit-box-shadow: -1px 1px 25px -4px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: -1px 1px 25px -4px rgba(0, 0, 0, 0.99);
+  box-shadow: -1px 1px 25px -4px var(--almostblack);
+  border-radius: 5vw;
+  padding: 1vw 2vw;
+}
+
+.red-border-bottom {
+  border-bottom: .1vw solid var(--red);
 }
 
 .table-left {
   width: 35vw;
+  margin-left: 3vw;
 }
 
 .table-right {
   width: 10vw;
+}
+#rates-phone-header, #rates-inperson-header {
+  padding-top: 1vw;
+}
+#rates-email-header {
+  margin-left: 17vw;
+}
+
+#rates-phone-header {
+  margin-left: 13vw;
+}
+
+#rates-inperson-header {
+  margin-left: 19vw;
 }
 
 /*================================ BOOKING PAGE */
@@ -539,12 +568,13 @@ button {
 /*=============================== FAQ PAGE */
 #payment {
   background: var(--babypowder);
+  height: 40vw;
 }
 
 #payment-section-img {
   max-width: 25vw;
   max-height: 25vw;
-  margin: -25vw 2vw 5vw auto;
+  margin: -22vw 2vw 5vw auto;
 }
 
 #payment-list {
@@ -596,6 +626,15 @@ button {
   margin: 5vw 5vw 5vw 7vw;
 }
 
+#mondays-first-third-sundays {
+  margin-left: 3vw;
+  text-align: left;
+}
+
+#mondays {
+  margin-left: .1vw;
+}
+
 #walk-in-table-left {
   width: 10vw;
   margin-left: 4vw;
@@ -603,18 +642,6 @@ button {
 
 #walk-in-table-right {
   margin: auto 3vw auto 3vw;
-}
-
-#rates-email-header {
-  margin-left: 14vw;
-}
-
-#rates-phone-header {
-  margin-left: 10vw;
-}
-
-#rates-inperson-header {
-  margin-left: 16vw;
 }
 
 #rights-reserved {
@@ -695,7 +722,7 @@ button {
     margin-bottom: 2vw;
     /* bottom: 0; */
     height: 1vw;
-    background: none;
+    /* background: none; */
   }
 
   footer p {
@@ -707,7 +734,8 @@ button {
     margin-top: 1vw;
     padding-left: 2vw;
     background: none;
-    color: var(--puceblue);
+    background: var(--almostblack);
+    color: var(--babypowder);
   }
 
   /* ========================== IPAD MAIN PAGE */
@@ -787,7 +815,7 @@ button {
   }
 
   button {
-    margin-bottom: 6vw;
+    margin-bottom: 10vw;
   }
 
   /* =========================   IPAD FAQ PAGE  */
@@ -797,10 +825,11 @@ button {
 
   #payment-list {
     font-size: 2vw;
+    margin-top: 5vw;
   }
 
   #payment-section-img {
-    margin: -20vw 2vw 5vw auto;
+    margin: -23vw 0vw 5vw auto;
   }
 
   .reschedule-images {
@@ -1021,7 +1050,8 @@ button {
   }
 
   #rates-table {
-    width: 100%;
+    width: 70%;
+    margin-left: 1vw;
   }
 
   .table-left {
@@ -1030,9 +1060,11 @@ button {
   }
 
   .table-right {
-    width: 50vw;
+    width: 55vw;
   }
-
+  .red-border-bottom {
+    border-bottom: none;
+  }
   #rates-email-header {
     margin-left: 31.5vw;
   }
@@ -1051,11 +1083,13 @@ button {
   }
 
   #payment-section-img {
-    margin: -27vw 2vw 5vw auto;
+    margin: -27.5vw 2vw 5vw auto;
   }
 
   #payment-list {
     font-size: 3vw;
+    margin-left: 7vw;
+    margin-top: 0;
   }
 
   .flex-container-browser {
@@ -1098,7 +1132,7 @@ button {
   }
 
   #walkin-section-img {
-    margin: 18vw 0vw 5vw -15vw;
+    margin: 13vw 0vw 5vw -15vw;
     /* border-radius: 50%; */
   }
 
@@ -1107,14 +1141,18 @@ button {
     width: 60vw;
     margin-left: -1vw;
   }
-
+  #walk-in-table  {
+    padding-top: 2vw;
+  }
   #walk-in-table-left {
     width: 30vw;
     margin-left: 4vw;
+    margin-top: 0vw;
   }
 
   #walk-in-table-right {
     margin: auto 3vw auto 3vw;
+    padding: 0;
   }
 
   #rights-reserved {
@@ -1159,6 +1197,7 @@ button {
     width: 100%;
     border-bottom: 1vw solid var(--babyblue);
   }
+
   #home-icon {
     width: 9vw;
     height: 9vw;
