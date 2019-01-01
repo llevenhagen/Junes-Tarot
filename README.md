@@ -15,7 +15,7 @@ live link: https://llevenhagen.github.io/Junes-Tarot2/
 
 ## Wireframes
 <div align="center">
-  <kbd><img margin-right="10" src="https://user-images.githubusercontent.com/42528266/50569456-8f89e300-0d1a-11e9-8a5b-b85b550dbb0f.png" width="280"/></kbd><kbd><img src="https://user-images.githubusercontent.com/42528266/50569461-a2041c80-0d1a-11e9-8219-1b2cbc8ed87a.png" width="280"/></kbd><kbd><img src="https://user-images.githubusercontent.com/42528266/50569471-c7912600-0d1a-11e9-967b-bc516e459a3c.png" width="280"/></kbd>
+  <kbd><img margin-right="10" src="https://user-images.githubusercontent.com/42528266/50569456-8f89e300-0d1a-11e9-8a5b-b85b550dbb0f.png" width="280"/></kbd><kbd><img src="https://user-images.githubusercontent.com/42528266/50571134-d5649c80-0d56-11e9-9926-f1816f869598.png" width="280"/></kbd><kbd><img src="https://user-images.githubusercontent.com/42528266/50569471-c7912600-0d1a-11e9-967b-bc516e459a3c.png" width="280"/></kbd>
 </div>
 
 ## Technologies
