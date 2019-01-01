@@ -7,7 +7,7 @@
   Learning and enacting accessibility.
 </p>
 
-live link: https://llevenhagen.github.io/Junes-Tarot2/
+live link: https://llevenhagen.github.io/Junes-Tarot/
 ## About June's Tarot
 <p>
   This is a freelance project I took on to create a site for June's Tarot business. She wanted it to include all information regarding policies and rates as well as a way to contact her. She requested that I use Jekyll to build the site, and that I put special care into accessibility. 
