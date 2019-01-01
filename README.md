@@ -44,7 +44,7 @@ Instagram has implemented some changes to their API recently and the video isn't
 
 #### 'Baby Powder' white with pops of color 
 <p>
-  White backgrounds are all the rage these days, but I like to use color to break up the sections, and one of June's notes was that she liked things pretty minimal but she had interest in possibly using some pastels. I started with all white sections and simple grey <hr> lines to separate them, but all that white space made things look too chaotic to me, so I used pastels to break the sections up, and we were both a lot happier with that. 
+  White backgrounds are all the rage these days, but I like to use color to break up the sections, and one of June's notes was that she liked things pretty minimal but she had interest in possibly using some pastels. I started with all white sections and simple grey 'hr' lines to separate them, but all that white space made things look too chaotic to me, so I used pastels to break the sections up, and we were both a lot happier with that. 
  </p>
  
 #### 'Almost Black' is better than black
