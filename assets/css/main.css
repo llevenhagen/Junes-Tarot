@@ -559,7 +559,9 @@ button {
   margin-left: 41%;
   margin-top: 2.5vw;
 }
-
+button:hover {
+  background: var(--yellow);
+}
 #booking-img {
   width: 20%;
   margin: 3vw 40% 2vw;
