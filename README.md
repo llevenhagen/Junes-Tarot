@@ -1,8 +1,6 @@
-sources:
+<img>https://user-images.githubusercontent.com/42528266/50571082-30958f80-0d55-11e9-83ee-325e15adf573.png</img>
 
-instafeed / magnific popup :
-https://www.youtube.com/watch?v=wwXrP-RvoSM
-
+live link: https://llevenhagen.github.io/Junes-Tarot2/
 ## About June's Tarot
 <p>
   This is a freelance project I took on to create a site for June's Tarot business. She wanted it to include all information regarding policies and rates as well as a way to contact her. She requested that I use Jekyll to build the site, and that I put special care into accessibility. 
