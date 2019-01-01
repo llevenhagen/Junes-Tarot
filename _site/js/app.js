@@ -6,7 +6,7 @@ $(document).ready(function() {
 console.log('hello');
   var feed = new Instafeed({
     get: 'user',
-    userId: '327369499',
+    userId: '5492512914',
     // junes tarot online deployment access token:
     accessToken: '327369499.81094f6.7ab95b1f31e14797976c8069f9916ca8',
     // local junes tarot access token:
