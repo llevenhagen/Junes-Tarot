@@ -1,5 +1,12 @@
 <img src="https://user-images.githubusercontent.com/42528266/50571082-30958f80-0d55-11e9-83ee-325e15adf573.png"/>
 
+
+## Currently working on: 
+
+<p>
+  Learning and enacting accessibility.
+</p>
+
 live link: https://llevenhagen.github.io/Junes-Tarot2/
 ## About June's Tarot
 <p>
@@ -49,11 +56,13 @@ Instagram has implemented some changes to their API recently and the video isn't
  
 #### 'Almost Black' is better than black
 <p>
-I recently read an article on linkedIn about how using 'almost black' ( rgb(51, 51, 51) ) is better than using black with a white background, because it is less jarring to the eyes. It's a small, simple change, but I find it helped. 
+I recently read an article on linkedIn about how using 'almost black' ( rgb(51, 51, 51) ) is better than using black with a white background, because it is less jarring to the eyes. It's a small, simple change, but I find it helped. The article can be found here: 
+  https://medium.com/startup-grind/how-to-not-suck-at-design-a-5-minute-guide-for-the-non-designer-291efac43037
 </p>
 
 ### Sticky bottom navigation for mobile
-<p>I read another article about designing for mobile that pointed out how all good phone apps have their navigation at the bottom, because of the way people hold and use their phones. This was an epiphany to me and I felt like I should have realized that on my own! I will be implementing that strategy from now on. 
+<p>I read another article about designing for mobile that pointed out how all good phone apps have their navigation at the bottom, because of the way people hold and use their phones. This was an epiphany to me and I felt like I should have realized that on my own! I will be implementing that strategy from now on. The article can be found here: 
+  https://www.lukew.com/ff/entry.asp?1649
   
 ## Improvements for the Future
 
