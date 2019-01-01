@@ -8,7 +8,7 @@ console.log('hello');
     get: 'user',
     userId: '5492512914',
     // junes tarot online deployment access token:
-    accessToken: '327369499.81094f6.7ab95b1f31e14797976c8069f9916ca8',
+    accessToken: '',
     // local junes tarot access token:
     // accessToken: '327369499.45456d4.8257602705464a11bd104aad06022598',
     type: 'image',
