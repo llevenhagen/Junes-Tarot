@@ -54,7 +54,7 @@
 /*================================ GENERAL */
 html {
   width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 
@@ -69,6 +69,7 @@ body {
   font-family: JostBook, sans-serif;
   font-size: 1.5vw;
   margin-left: -.4vw;
+  color: var(--almostblack);
 }
 
 #overflow-div {
