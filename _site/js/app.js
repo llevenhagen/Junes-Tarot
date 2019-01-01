@@ -8,7 +8,7 @@ console.log('hello');
     get: 'user',
     userId: '5492512914',
     // junes tarot online deployment access token:
-    accessToken: '',
+    accessToken: '5492512914.c088c41.8bae62ac7d2e4f2088c1c6a521b5dc25',
     // local junes tarot access token:
     // accessToken: '327369499.45456d4.8257602705464a11bd104aad06022598',
     type: 'image',
@@ -19,7 +19,7 @@ console.log('hello');
     // first try client id:
     // clientId: '45456d4d07ef4cd9b7a8749b370107c2',
     // junes tarot online deployment client id:
-    clientId: '81094f69284547778497e07c897440f9',
+    clientId: 'c088c41b5f974b89a405c4691a6f57f3',
     template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
   });
   if ($('#instafeed').length){
