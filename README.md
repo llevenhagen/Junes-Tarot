@@ -1,4 +1,4 @@
-<img>https://user-images.githubusercontent.com/42528266/50571082-30958f80-0d55-11e9-83ee-325e15adf573.png</img>
+<img src="https://user-images.githubusercontent.com/42528266/50571082-30958f80-0d55-11e9-83ee-325e15adf573.png"/>
 
 live link: https://llevenhagen.github.io/Junes-Tarot2/
 ## About June's Tarot
@@ -74,5 +74,4 @@ To keep things 'simple', I used the same page layout for all the pages of the si
 <p>
  Somewhere along the way, the 'p' tag in the header started to appear much further down than it should have, so I ended up giving it a negative margin top to move it back up into the proper place. It looks great in Google chrome, Foxfire, and mobile, but unfortunately on Safari the negative margin makes it look way too high up. I am going to work on fixing that in the next few days.
  </p>
-## Link
-Join Speculook [here](https://github.com/emfoxily/speculook)
+
