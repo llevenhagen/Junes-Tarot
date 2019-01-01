@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=wwXrP-RvoSM
 
 Wire Frames 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/42528266/50569456-8f89e300-0d1a-11e9-8a5b-b85b550dbb0f.png" width="460" height-"auto"/>
+  <img src="https://user-images.githubusercontent.com/42528266/50569456-8f89e300-0d1a-11e9-8a5b-b85b550dbb0f.png" width="460" border="2px solid black"/>
 </p>
 <p align="center">
 
