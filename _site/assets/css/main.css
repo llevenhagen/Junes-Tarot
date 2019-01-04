@@ -54,8 +54,11 @@
 /*================================ GENERAL */
 html {
   width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   scroll-behavior: smooth;
+  font-family: JostBook, sans-serif;
+  font-size: 1.5vw;
+  color: var(--almostblack);
 }
 
 body {
@@ -65,17 +68,13 @@ body {
 }
 
 * {
-  /* background: var(--babypowder); */
-  font-family: JostBook, sans-serif;
-  font-size: 1.5vw;
-  margin-left: -.4vw;
-  color: var(--almostblack);
 }
 
 #overflow-div {
   /* min-height: calc(100vh); */
   overflow: hidden;
   margin: auto;
+  margin-left: -.4vw;
 }
 
 /* div {
@@ -211,7 +210,7 @@ footer p {
   width: 4.5vw;
   right: 0;
   top: 0;
-  margin-top: 25vw;
+  margin-top: 30vw;
   position: fixed;
   padding-top: 2vw;
   padding-bottom: 2vw;
@@ -222,7 +221,7 @@ footer p {
 #social-media img {
   width: 4vw;
   display: block;
-  margin: 0;
+  margin: 2vw 0;
   background: var(--puceblue);
   border-radius: .5vw;
 }
@@ -275,12 +274,13 @@ footer p {
   font-size: 9vw;
   font-family: 'Aladin', cursive;
   padding-top: 0vw;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   letter-spacing: .2vw;
+  padding-top: 2vw;
 }
 
 #header-p {
-  margin-top: -2.2vw;
+  margin-top: -1vw;
   font-family: JostSemi, serif;
   font-size: 1.6vw;
 }
