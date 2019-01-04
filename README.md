@@ -78,9 +78,5 @@ To keep things 'simple', I used the same page layout for all the pages of the si
 ### White space on right side of page 
 <p>
  I had an issue pretty immediately where the site had a half inch white space on the right side, and I did a lot of research trying to figure this out. I added width of 100vw to the html and body, but the space remained. In the end, I wrapped the content in a div with id 'overflow-div' and gave it the attribute 'overflow: hidden'. This of course caused the page to be a bit off-center, and to fix this, I gave the .overflow-div container a negative margin life ( .overflow-div {margin-left: -.4vw;} ), and then I added an 'overflow-x: hidden' to the html . I am 100% certain this was not the best technique to use, and hope to fix it later once I have learned more.
-  
-### Header paragraph tag, negative margin issues
-<p>
- Somewhere along the way, the 'p' tag in the header started to appear much further down than it should have, so I ended up giving it a negative margin top to move it back up into the proper place. It looks great in Google chrome, Foxfire, and mobile, but unfortunately on Safari the negative margin makes it look way too high up. I am going to work on fixing that in the next few days.
- </p>
+ 
 
