@@ -1032,11 +1032,13 @@ button:hover {
   height: 10vw;
   font-size: 4vw;
 }
-  button {
-    width: 30%;
-    margin: auto 35%;
+  .btn {
+    width: 40%;
+    height: 10vw;
+    margin: auto 30%;
     margin-top: 5vw;
     margin-bottom: 11vw;
+    font-size: 4vw;
   }
 
   #live-or-email-img {
