@@ -557,8 +557,8 @@ form {
 button {
   background: var(--red);
   color: var(--babypowder);
-  width: 18%;
-  margin-left: 41%;
+  width: 24%;
+  margin-left: 38%;
   margin-top: 2.5vw;
 }
 button:hover {
