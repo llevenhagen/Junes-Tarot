@@ -289,11 +289,11 @@ footer p {
   text-decoration: none;
 }
 
-#wtf {
+/* #wtf {
   font-family: JostBoldItalic, serif;
   font-style: italic;
   font-size: 2vw;
-}
+} */
 
 #mobile-nav {
   display: none;
@@ -508,10 +508,12 @@ li .dropdown {
   margin-left: 0vw;
   margin-top: 3vw;
   margin-bottom: 4vw;
-  -webkit-box-shadow: -1px 1px 25px -4px rgba(0, 0, 0, 0.99);
+  border: .3vw double var(--greyline);
+  /* -webkit-box-shadow: -1px 1px 25px -4px rgba(0, 0, 0, 0.99);
   -moz-box-shadow: -1px 1px 25px -4px rgba(0, 0, 0, 0.99);
-  box-shadow: -1px 1px 25px -4px var(--almostblack);
-  border-radius: 5vw;
+  box-shadow: -1px 1px 25px -4px var(--almostblack); */
+  /* border-radius: 5vw; */
+  border-radius: .2vw;
   padding: 1vw 2vw;
 }
 
@@ -684,20 +686,21 @@ button:hover {
     margin-top: 0;
   }
 
-  #wtf {
+  /* #wtf {
     font-size: 2.2vw;
-  }
+  } */
 
   #social-media {
     display: inline-flex;
-    background: var(--lightblue);
+    /* background: var(--lightblue); */
+    background: var(--puceblue);
     height: 10vw;
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
     padding: 0;
-    border-radius: .5vw;
+    border-radius: 0;
     justify-content: center;
     vertical-align: middle;
   }
@@ -708,7 +711,8 @@ button:hover {
     margin: auto;
     margin: 1vw;
     margin-bottom: 0vw;
-    background: var(--lightblue);
+    /* background: var(--lightblue); */
+    background: var(--puceblue);
     /* border-radius: .5vw; */
   }
 
@@ -896,11 +900,11 @@ button:hover {
     font-size: 3vw;
   }
 
-  #wtf {
+  /* #wtf {
     font-weight: 900;
     font-style: italic;
     font-size: 3.5vw;
-  }
+  } */
 
   h2 {
     font-size: 3.5vw;
@@ -919,8 +923,6 @@ button:hover {
     width: 12vw;
     margin: 1vw 7vw;
     margin-bottom: 0vw;
-    background: var(--lightblue);
-    /* border-radius: .5vw; */
   }
 
   .contact-me-link {
@@ -1184,6 +1186,7 @@ button:hover {
     height: 100%;
     margin: 0;
     padding: 0;
+      padding-right: 3vw;
   }
 
   #mobile-nav .mobile-nav-bar li {
@@ -1195,17 +1198,18 @@ button:hover {
     font-size: 4vw;
     text-align: center;
     color: var(--babypowder);
-    font-family: JostBoldItalic, serif;
+    font-family: 'Bad Script', cursive;
+    /* font-family: JostBoldItalic, serif; */
     margin: auto;
     width: 100%;
     border-bottom: 1vw solid var(--babyblue);
   }
 
   #home-icon {
-    width: 9vw;
-    height: 9vw;
+    width: 9.5vw;
+    height: 9.5vw;
     height: 100%;
-    margin-bottom: 6vw;
+    /* margin-bottom: 6vw; */
     /* border: none; */
     padding: 5vw auto 5vw;
   }
