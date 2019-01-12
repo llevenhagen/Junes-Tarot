@@ -1028,7 +1028,10 @@ button:hover {
     margin-top: 7vw;
     width: 85%;
   }
-
+.col input, .form-group textarea{
+  height: 10vw;
+  font-size: 4vw;
+}
   button {
     width: 30%;
     margin: auto 35%;
