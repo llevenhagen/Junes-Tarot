@@ -789,9 +789,9 @@ button:hover {
 
   /* ==================== IPAD PRIVATE READINGS PAGE */
   #private-readings-section-img {
-    width: 19vw;
-    height: 19vw;
-    margin: -25vw -.5vw 5vw 0;
+    width: 17vw;
+    height: 17vw;
+    margin: -25vw -1.5vw 5vw 5vw;
   }
 
   #private-readings, #live-oremail, #rates, #payment, #policies, #walkinhours {
